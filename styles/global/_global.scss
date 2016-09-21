@@ -1,0 +1,311 @@
+// Clearfix
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+//	Typography
+
+.greeting strong {
+  font-family: 'Rubik', sans-serif;
+}
+
+.section-title {
+  margin: 0 0 30px 0;
+  padding: 0 0 20px 0;
+  background: url(images/section-divide-dark-bg.png) bottom left no-repeat;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 0.85em;
+  letter-spacing: 0.065em;
+}
+
+.secondary {
+  margin: 0 0 30px 0;
+  font-size: 27px;
+  text-align: center;
+}
+
+.greeting-centered {
+  font-size: 33px;
+  font-weight: lighter;
+  width: 66%;
+  margin: 60px auto 30px auto;
+  line-height: 1.35;
+  text-align: center;
+
+  span {
+    color: $link-color;
+  }
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+p a, h1.greeting a, h1.blog-greeting a, .footer ul a {
+  color: $link-color;
+  font-family: 'Rubik', sans-serif;
+  position: relative;
+  padding-bottom: 2px;
+  
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background-color: $underline-color;
+    width: 0%;
+    display: block;
+    transition: width .2s ease-in-out;
+    z-index: 1;
+  }
+  
+  &:hover {
+    color: $hover-color;
+    transition: 0.15s ease;
+    &:after {
+      width: 100%;
+    }
+  }
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+hr {
+  border: solid $dark-gray;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0;
+}
+
+// Links
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:hover, a:focus {
+  color: $underline-color;
+}
+
+// Selection colors (easy to forget)
+
+::selection {
+  background: transparent;
+}
+
+::-moz-selection {
+  background: transparent;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+// Basic Styles
+
+body {
+  background: $bg;
+  font-size: 1em;
+  font-family: 'Rubik' sans-serif;
+  color: $text;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: $hover-color;
+}
+
+#wrap {
+  margin: 0 auto;
+  padding: 60px;
+  max-width: 1200px;
+}
+
+@media (max-width: 435px) {
+  #wrap {
+    padding: 30px;
+  } 
+}
+
+.button {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #fff;
+  padding: 12px 20px 12px 20px;
+  border: 2px solid $link-color;
+  box-shadow: 0px 0px 0px $link-color inset;
+  transition: 0.15s ease;
+}
+
+.button:hover {
+  color: #fff;
+  border: 2px solid $hover-color;
+  box-shadow: 0px 0px 0px $link-color inset;
+  background: none;
+  transition: 0;
+}
+
+// Newsletter
+
+.newsletter {
+  margin: 0;
+  margin-top: 60px;
+  padding: 30px 40px 36px 40px;
+  background-color: $dark-gray;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-image: url(images/bg-newsletter@2x.png);
+  background-position: 750px;
+  background-size: 784px 347px;
+}
+
+.blog .newsletter {
+  margin-top: 20px;
+}
+
+.newsletter h2 {
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #fff;
+  font-size: 25px;
+  line-height: 1.28em;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+::-webkit-input-placeholder {
+  color: $text;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255,255,255,0.6);  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: rgba(255,255,255,0.6);  
+}
+
+:-ms-input-placeholder {  
+  color: rgba(255,255,255,0.6);  
+}
+
+.newsletter-content {
+  width: 45%;
+}
+
+#mc_embed_signup_scroll {
+  display: flex;
+  align-items: stretch;
+  flex-flow: row wrap;
+}
+
+#mc_embed_signup_scroll .required {
+  margin: 0 20px 0 0;
+  padding: 11px 30px 10px 12px;
+  border: none;
+  color: #fff;
+  border: 2px solid $text;
+  background: $dark-gray;
+  font-family: "Rubik", sans-serif;
+  outline: none;
+  font-size: 17px;
+  flex-grow: 2;
+}
+
+#mc_embed_signup_scroll .required:focus {
+  border: 2px solid rgba(255,255,255,1);
+}
+
+#mc-embedded-subscribe {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin: 0;
+  background-color: $dark-gray;
+  padding: 12px 20px 12px 20px;
+  border: 2px solid $link-color;
+  outline: none;
+  flex-grow: 1;
+  transition: border-color 0.15s ease;
+}
+
+#mc-embedded-subscribe:hover {
+  cursor: hand;
+  border: 2px solid $hover-color;
+  outline: none;
+}
+
+// Newsletter responsive styles
+
+@media (max-width: 1130px) {
+  .newsletter {
+    /*
+    background: $dark-gray url(images/bg-newsletter@2x.png) no-repeat 500px 0;
+    background-size: 784px 347px;
+    */
+  }
+
+  .newsletter-content {
+    width: 60%;
+  }
+}
+
+@media (max-width: 950px) {
+  .newsletter {
+    background: $dark-gray url(images/bg-newsletter@2x.png) 450px -100px;
+    background-size: 784px 347px;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+  }
+
+  .newsletter-content {
+    width: 80%;
+  }
+}
+
+@media (max-width: 730px) {
+  .newsletter {
+    display: block;
+    margin: 0;
+    margin-top: 60px;
+    padding: 50px 20px;
+    background-image: none;
+  }
+
+  #mc_embed_signup_scroll {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+  #mc_embed_signup_scroll .required {
+    display: inline-block; 
+    margin: 0 0 20px 0;
+    padding: 12px 20px 10px 12px;
+    width: 100%;
+  }
+}

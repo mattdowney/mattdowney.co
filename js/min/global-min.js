@@ -1,0 +1,1 @@
+!function($){$(function(){$(".menu-toggle").on("click",function(){$(".full-menu").toggleClass("full-menu-open")})}),$(window).scroll(function(){var n=$(window).scrollTop(),o=$(document).height(),l=$(window).height(),i=n/(o-l)*100;$(".scroll-line").css("width",i+"%")})}(jQuery);
