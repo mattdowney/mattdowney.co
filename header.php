@@ -11,6 +11,8 @@
 		<?php wp_head(); ?>
 	</head>
 
+	<!-- JUST A TEST -->
+
 	<body <?php body_class(); ?>>
 
 		<div id="wrap">
