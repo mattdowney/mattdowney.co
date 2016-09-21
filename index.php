@@ -44,7 +44,7 @@
     'next_text' => __( 'Next &nbsp;&#8594;', 'textdomain' ),
 ) ); ?>
 
-<?php //get_template_part('includes/blog-footer'); ?>
+<?php get_template_part('includes/blog-footer'); ?>
 <?php get_template_part('includes/newsletter'); ?>
 <?php get_template_part('includes/footer'); ?>
 
