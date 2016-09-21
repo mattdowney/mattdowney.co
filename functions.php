@@ -86,6 +86,13 @@ function exclude_post_categories($excl='', $spacer=' ') {
   }
 }
 
+// RICG Plugin - Advanced Image Compression
+
+function custom_theme_setup() {
+    add_theme_support( 'advanced-image-compression' );
+}
+add_action( 'after_setup_theme', 'custom_theme_setup' );
+
 // Reading time
 
 function reading_time() {
