@@ -11,7 +11,8 @@
 				$rand_keys = array_rand($input, 2);
 				echo $input[$rand_keys[0]] . "\n";
 				?>
-				</span>I'm <a href="<?php bloginfo('wpurl'); ?>/about">Matt Downey</a>, an Atlanta-based web designer and Creative Director at 45royale. Have a look at some <a href="<?php bloginfo('wpurl'); ?>/work">recent work</a> or check out <a href="<?php bloginfo('wpurl'); ?>/blog">my blog</a>.
+				
+				</span>I'm <a href="<?php bloginfo('wpurl'); ?>/about">Matt</a>, a designer and developer specializing in websites, applications, and products. Some of my clients include <a href="<?php bloginfo('wpurl'); ?>/fpcu">FPCU</a>, <a href="<?php bloginfo('wpurl'); ?>/foursquare">Foursquare</a>, <a href="<?php bloginfo('wpurl'); ?>/joey-the-cat">Joey the Cat</a>, MailChimp, Microsoft, <a href="<?php bloginfo('wpurl'); ?>/netpure">Netpure</a>, Tumblr, and Uber.
 			</h1>
 
 			<div class="hero-title">
