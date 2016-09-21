@@ -139,10 +139,10 @@
 
 	<div class="testimonial">
 	<?php
-		$divs = array('<div><p><i>"We saw a 20% increase in applications after Matt redesigned our website, and a tripling of email response rates. Not only does Matt do great design that pays for itself, he makes it fun. A strategic partner that you enjoy working with—it doesn’t get better than that!"</i></p>
-		<p class="testimonial-author">Michelle Unger <span>VP, Financial Partners Credit Union</span></p></div>', '<div><p><i>"I have worked with Matt for over 5 years. So when my new product needed branding and UI quickly, the choice was obvious. Matt was able to support our rapid timeline and deliver an experience that was easy for our customers to use and understand immediately."</i></p>
-		<p class="testimonial-author">Jere Simpson <span>Founder, Netpure</span></p></div>','<div><p><i>"I just wanted to send a quick note that our new website... RULEZ! The quality of our inbound leads has increased dramatically. The biggest inbound lead we’ve had in the past had been no more than $5-7K and we recently received an inbound lead that wants to do a $27k rental."</i></p>
-		<p class="testimonial-author">Joey Mucha <span>Founder, Joey the Cat</span></p></div>');
+		$divs = array('<p><i>"We saw a 20% increase in applications after Matt redesigned our website, and a tripling of email response rates. Not only does Matt do great design that pays for itself, he makes it fun. A strategic partner that you enjoy working with—it doesn’t get better than that!"</i></p>
+		<p class="testimonial-author">Michelle Unger <span>VP, <a href="http://mattdowney.co/fpcu">Financial Partners Credit Union</a></span></p>', '<p><i>"I have worked with Matt for over 5 years. So when my new product needed branding and UI quickly, the choice was obvious. Matt was able to support our rapid timeline and deliver an experience that was easy for our customers to use and understand immediately."</i></p>
+		<p class="testimonial-author">Jere Simpson <span>Founder, <a href="http://mattdowney.co/netpure">Netpure</a></span></p>','<p><i>"I just wanted to send a quick note that our new website... RULEZ! The quality of our inbound leads has increased dramatically. The biggest inbound lead we’ve had in the past had been no more than $5-7K and we recently received an inbound lead that wants to do a $27k rental."</i></p>
+		<p class="testimonial-author">Joey Mucha <span>Founder, <a href="http://mattdowney.co/joey-the-cat">Joey the Cat</a></span></p>');
 		$index = rand(0, count($divs));
 		echo $divs[$index];
 	?>
