@@ -4,7 +4,7 @@
 
 	<div class="footer-col footer-about">
 		<h3 class="section-title">About Matt</h3>
-		<p>Matt is a Creative Director and web designer known for navigating the twists and turns in every project with his signature style of introspection and intuition.<br><a href="<?php bloginfo('wpurl'); ?>/about/">Read more &#10142;</a></p>
+		<p>I'm Matt, a designer specializing in websites, applications, and products. Since 2005, I've worked with hundreds of clients large and small, as well as gained experience with startup environments, product design, and management. <a href="<?php bloginfo('wpurl'); ?>/about/">Read more &#10142;</a></p>
 	</div> <!-- End footer-about -->
 
 		<div class="footer-col footer-navigate">
