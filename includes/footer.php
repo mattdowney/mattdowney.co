@@ -21,7 +21,7 @@
 		<div class="footer-col footer-elsewhere">
 			<h3 class="section-title">Elsewhere</h3>
 			<ul>
-				<li><a class="hire" href="https://www.designinc.com/mattdowney">Design Inc.</a></li>
+				<li><a href="https://www.designinc.com/mattdowney">Design Inc.</a></li>
 				<li><a href="http://twitter.com/mattdowney">Twitter</a></li>
 				<li><a href="http://dribbble.com/mattdowney">Dribbble</a></li>
 				<li><a href="http://instagram.com/mc_downey">Instagram</a></li>

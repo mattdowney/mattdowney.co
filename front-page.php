@@ -12,7 +12,7 @@
 				echo $input[$rand_keys[0]] . "\n";
 				?>
 				
-				</span>I'm <a href="<?php bloginfo('wpurl'); ?>/about">Matt Downey</a>, a designer and developer specializing in websites, applications, and products. Some of my clients include <a href="<?php bloginfo('wpurl'); ?>/foursquare">Foursquare</a>, <a href="<?php bloginfo('wpurl'); ?>/fpcu">FPCU</a>, <a href="<?php bloginfo('wpurl'); ?>/joey-the-cat">Joey the Cat</a>, MailChimp, Microsoft, <a href="<?php bloginfo('wpurl'); ?>/netpure">Netpure</a>, Tumblr, and Uber.
+				</span>I'm <a href="<?php bloginfo('wpurl'); ?>/about">Matt Downey</a>, a designer specializing in websites, applications, and products. Some of my clients include <a href="<?php bloginfo('wpurl'); ?>/foursquare">Foursquare</a>, <a href="<?php bloginfo('wpurl'); ?>/fpcu">FPCU</a>, <a href="<?php bloginfo('wpurl'); ?>/joey-the-cat">Joey the Cat</a>, MailChimp, <a href="<?php bloginfo('wpurl'); ?>/netpure">Netpure</a>, Tumblr, and Uber.
 			</h1>
 
 			<div class="hero-title">
