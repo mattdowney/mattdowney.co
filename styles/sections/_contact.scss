@@ -1,0 +1,112 @@
+.contact-content {
+   position: relative;
+   margin: 80px 0 0 0;
+   padding: 3.5% 0 15% 0;
+   background-image: transparent;
+
+   h1 {
+   	text-align: left;
+   }
+}
+
+.contact-content:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+   	background-image: url(images/bg-newsletter@2x.png);
+    width: 100%;
+    height: 90%;
+    opacity : 0.5;
+    z-index: -1;
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+.wpcf7-form {
+	margin: 60px auto;
+	width: 60%;
+
+	@media (max-width: 1100px) {
+		width: 80%;
+	} 
+
+	p {
+		width: 100%;
+	}
+
+	label {
+		color: #fff;
+		display: block;
+		margin-bottom: 30px;
+		font-size: 1.25rem;
+		width: 100%;
+	}
+
+	span.req {
+		color: $hover-color;
+	}
+
+	.wpcf7-not-valid-tip {
+		margin-top: 10px;
+		display: inline-block;
+		background: $hover-color;
+		padding: 3px 9px;
+		color: #fff;
+		font-size: 0.9rem;
+	}
+
+	input, select, textarea {
+		margin-top: 5px;
+		background-color: $bg;
+		width: 100%;
+		border: 3px solid transparent;
+		outline: none;
+		color: $text;
+
+		&:focus, &:active {
+			outline: none;
+    		border: 3px solid #fff;
+		}
+	}
+
+	input, textarea {
+		padding: 1.5% 3%;
+		width: 94%;
+	}
+
+	select { 
+		height: 40px;
+	}
+
+	.wpcf7-submit {
+		width: 20%;
+  		font-family: "Rubik", sans-serif;
+  		font-weight: 500;
+  		font-size: 14px;
+  		text-transform: uppercase;
+	  	letter-spacing: 0.05em;
+	  	color: #fff;
+	  	padding: 12px 20px 12px 20px;
+	  	border: 2px solid $link-color;
+	  	box-shadow: 0px 0px 0px $link-color inset;
+	  	transition: 0.15s ease;
+	  	background-color: $bg;
+	}
+
+	.wpcf7-submit:hover {
+	  color: #fff;
+	  border: 2px solid $hover-color;
+	  box-shadow: 0px 0px 0px $link-color inset;
+	  background: none;
+	  transition: 0;
+	}
+
+	.wpcf7-response-output {
+		margin: 0;
+		padding: 0;
+		border: none;
+		font-style: italic;
+	}
+}

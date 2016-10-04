@@ -14,4 +14,7 @@ var wintop = $(window).scrollTop(), docheight =
   
   		$('.scroll-line').css('width', (scrolled + '%'));
 });
+
+$(".wpcf7-form input:text, .wpcf7-form textarea").first().focus();
+
 })(jQuery);
