@@ -4,7 +4,7 @@
 
 <?php get_header(); ?>
 
-<h1 class="greeting">Hey there, I'm Matt. I love 1950's Tiki Culture, mid-century modern architecture, and a well made cocktail. Oh, and also web design. <a href="#story" title="Read my story">Learn more &#8623;</a></h1>
+<h1 class="greeting">Hey there, I'm Matt. I love 1950's tiki culture, mid-century modern architecture, and a well made cocktail. Oh, and also web design. <a href="#story" title="Read my story">Learn more &#8623;</a></h1>
 
 <div class="about-content">
 
