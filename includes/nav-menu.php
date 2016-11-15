@@ -1,3 +1,10 @@
+<ul class="navigation-menu">
+  <li><a class="menu-about" href="<?php bloginfo('wpurl'); ?>/about/">About</a></li>
+  <li><a class="menu-work" href="<?php bloginfo('wpurl'); ?>/work/">Work</a></li>
+  <li><a class="menu-blog" href="<?php bloginfo('wpurl'); ?>/blog/">Blog</a></li>
+  <li><a class="menu-contact" href="<?php bloginfo('wpurl'); ?>/contact/">Contact</a></li>
+</ul>
+
 <a class="menu-toggle">n</a>
 
 <div id="gradient" class="full-menu full-menu-transition">
