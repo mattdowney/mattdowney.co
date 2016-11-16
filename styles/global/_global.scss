@@ -17,7 +17,6 @@
   padding: 0 0 20px 0;
   background: url(images/section-divide-dark-bg.png) bottom left no-repeat;
   text-transform: uppercase;
-  color: #fff;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
   font-size: 0.85em;
@@ -47,7 +46,7 @@ p {
   margin: 0 0 20px 0;
 }
 
-p a, h1.greeting a, h1.blog-greeting a, h1.greeting-centered a, .footer ul a, ul.navigation-menu a {
+p a,.greeting a,.blog-greeting a,.greeting-centered a, .footer ul a, ul.navigation-menu a {
   color: $link-color;
   font-family: 'Rubik', sans-serif;
   position: relative;
@@ -62,7 +61,7 @@ p a, h1.greeting a, h1.blog-greeting a, h1.greeting-centered a, .footer ul a, ul
     background-color: $underline-color;
     width: 0%;
     display: block;
-    transition: width .2s ease-in-out;
+    transition: width .1s ease-in-out;
     z-index: 1;
   }
   
@@ -151,7 +150,7 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #fff;
+  color: $text;
   padding: 12px 20px 12px 20px;
   border: 2px solid $link-color;
   box-shadow: 0px 0px 0px $link-color inset;
@@ -159,7 +158,7 @@ body {
 }
 
 .button:hover {
-  color: #fff;
+  color: $text;
   border: 2px solid $hover-color;
   box-shadow: 0px 0px 0px $link-color inset;
   background: none;
@@ -187,7 +186,7 @@ body {
 .newsletter h2 {
   margin: 0 0 20px 0;
   padding: 0;
-  color: #fff;
+  color: $text;
   font-size: 25px;
   line-height: 1.28em;
   font-family: 'Rubik', sans-serif;
@@ -224,7 +223,7 @@ body {
   margin: 0 20px 0 0;
   padding: 11px 30px 10px 12px;
   border: none;
-  color: #fff;
+  color: $text;
   border: 2px solid $text;
   background: $dark-gray;
   font-family: "Rubik", sans-serif;
@@ -234,7 +233,8 @@ body {
 }
 
 #mc_embed_signup_scroll .required:focus {
-  border: 2px solid rgba(255,255,255,1);
+  color: $text;
+  border: 2px solid $text;
 }
 
 #mc-embedded-subscribe {
@@ -243,7 +243,7 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #fff;
+  color: $text;
   margin: 0;
   background-color: $dark-gray;
   padding: 12px 20px 12px 20px;

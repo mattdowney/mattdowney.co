@@ -52,11 +52,11 @@
 	h2 {
 		margin: 9px 0 10px 0;
 		line-height: 1.3em;
-		font-size: 27px;
+		font-size: 30px;
 	}
 
 	h2 a {
-		color: #fff;
+		color: $text;
 		font-family: "Rubik", sans-serif;
 		font-weight: 300;
 		margin-bottom: 40px;
@@ -141,16 +141,16 @@
 	display: inline-block;
 	font-family: "Rubik", sans-serif;
 	font-weight: 500;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  	font-size: 14px;
+  	text-transform: uppercase;
+  	letter-spacing: 0.05em;
 }
 
 .navigation .nav-links span {
 	margin-right: 12px;
 	padding: 12px 20px 10px 20px;
 	border: 2px solid $link-color;
-	color: #fff;
+	color: $text;
 }
 
 .navigation .nav-links a {
@@ -161,6 +161,6 @@
 }
 
 .navigation .nav-links a:hover {
-	color: #fff;
+	color: $text;
 	border: 2px solid $hover-color;
 }

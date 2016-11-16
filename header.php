@@ -14,12 +14,8 @@
 	<body <?php body_class(); ?>>
 
 		<div id="wrap">
-			<div class="header-wrapper">
-				<header>
-					<?php get_template_part('includes/logo'); ?>
-					<?php get_template_part('includes/nav-menu'); ?>
-				</header>
-			</div> <!-- End .header-wrapper -->
-
-			<!--<div class="spacer"></div>-->
+			<header>
+				<?php get_template_part('includes/logo'); ?>
+				<?php get_template_part('includes/nav-menu'); ?>
+			</header>
 

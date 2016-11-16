@@ -1,4 +1,6 @@
-/*.header-wrapper {
+/*
+
+.header-wrapper {
   position: fixed;
   top: 0;
   margin-bottom: 50px;
@@ -8,11 +10,13 @@
   right: 0.1%;
   left: 0.1%;
   z-index: 999999;
-}*/
+}
 
 .spacer {
   height: 40px;
 }
+
+*/
 
 header {
 	display: flex;
@@ -53,8 +57,9 @@ ul.navigation-menu {
       padding-bottom: 3px;
       text-transform: uppercase;
       font-weight: 500;
-      font-size: 0.95em;
-      color: #fff;  
+      font-size: 0.85em;
+      letter-spacing: 0.065em;
+      color: $text;
     }
   }
 }
@@ -62,8 +67,12 @@ ul.navigation-menu {
 .page-template-template-about ul.navigation-menu a.menu-about,
 .page-template-template-work ul.navigation-menu a.menu-work,
 .blog ul.navigation-menu a.menu-blog,
-.page-template-template-contact ul.navigation-menu a.menu-contact {
-  padding-bottom: 1px;
+.page-template-template-contact ul.navigation-menu a.menu-contact,
+.page-template-template-foursquare a.menu-work,
+.page-template-template-netpure a.menu-work,
+.page-template-template-jtc a.menu-work,
+.page-template-template-fpcu a.menu-work,
+.single-post a.menu-blog {
   color: $link-color;
 }
 

@@ -16,7 +16,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -99,7 +99,7 @@
 		"oA": 0,
 		"oAP": "\/images\/bg-blockquote@2x.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/images\/bg-body.png": {
 		"ft": 32768,
@@ -115,7 +115,7 @@
 		"oA": 0,
 		"oAP": "\/images\/bg-matt.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/images\/bg-matt@2x.jpg": {
 		"ft": 16384,
@@ -123,7 +123,7 @@
 		"oA": 0,
 		"oAP": "\/images\/bg-matt@2x.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/images\/bg-nav-menu.jpg": {
 		"ft": 16384,

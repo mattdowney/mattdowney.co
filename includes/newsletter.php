@@ -7,7 +7,8 @@
     	
     		<div id="mc_embed_signup_scroll">
 					<div class="mc-field-group">
-						<input type="email" placeholder="Your email address..." value="" name="EMAIL" class="required email" id="mce-EMAIL">
+						<input type="email" placeholder="Your email address..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address...'" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+
 					</div> <!-- End .mc-field-group -->
 
 					<div id="mce-responses" class="clear">

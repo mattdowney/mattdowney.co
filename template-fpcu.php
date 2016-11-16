@@ -9,7 +9,7 @@
 	<h1 class="logo">
 		<svg id="fpcu" width="68%" height="68%" viewBox="0 0 568 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     			<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        		<g id="img-case-logo-fpcu" fill="#FFFFFF">
+        		<g id="img-case-logo-fpcu" fill="#4b4e69">
             	<g id="fpcu">
                 <g>
                     <g>

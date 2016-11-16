@@ -10,10 +10,9 @@ h1.greeting {
 	span {
 		display: block;
 		text-transform: uppercase;
-		color: #fff;
 		font-family: 'Rubik', sans-serif;
 		font-weight: 500;
-		font-size: 0.5em;
+		font-size: 0.45em;
 		letter-spacing: 0.065em;
 		margin-bottom: 20px;
 	}
@@ -86,8 +85,8 @@ a.hero-cat:hover {
 }
 
 .hero-excerpt h2 a {
-	font-size: 29px;
-	color: #fff;
+	font-size: 31px;
+	color: $text;
 }
 
 .hero-excerpt h2 a:hover {
@@ -168,7 +167,7 @@ a.hero-cat:hover {
 
 .article-excerpt h2 a {
 	font-size: 29px;
-	color: #fff;
+	color: $text;
 }
 
 .article-excerpt h2 a:hover {
