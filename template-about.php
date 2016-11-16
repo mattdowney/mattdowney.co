@@ -24,7 +24,7 @@
 
 		<p>Now, with over a decade of experience in the web design and development space, I’m happy to offer my expertise to those in need. If you have a question or would like to chat about working together, please feel free to <a href="<?php bloginfo('wpurl'); ?>/contact">contact me</a> or <a href="http://twitter.com/mattdowney">hit me up on Twitter</a>.️</p>
 
-		<?php get_template_part('includes/logo-cloud'); ?>
+		<?php // get_template_part('includes/logo-cloud'); ?>
 
 	</div> <!-- End about-text -->
 
