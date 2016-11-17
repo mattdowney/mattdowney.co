@@ -59,11 +59,11 @@
 	font-size: 50px;
 	font-weight: normal;
 	line-height: 1.25em;
-	color: #fff;
+	color: $text;
 	text-align: center;
 
 	a {
-		color: #fff;
+		color: $text;
 
 		&:hover {
 		color: $hover-color;
