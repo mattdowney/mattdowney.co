@@ -111,6 +111,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
+  margin: 0;
   background: #fff;
   font-size: 1em;
   font-family: 'Rubik' sans-serif;
