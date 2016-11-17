@@ -16,7 +16,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -25,6 +25,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/fonts\/actadeck-book-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/actadeck-book-webfont.woff",
+		"oF": 0
+		},
+	"\/fonts\/actadeck-book-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/actadeck-book-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/Icons.eot": {

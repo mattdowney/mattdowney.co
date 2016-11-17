@@ -2,7 +2,6 @@
 	display: flex;
 	justify-content: space-between;
 	font-family: "Rubik", sans-serif;
-	font-size: 17px;
 	max-width: 1200px;
 	line-height: 1.85rem;
 }
@@ -11,10 +10,19 @@
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+
+	li a {
+		font-size: 1.05em;
+	}
 }
 
 .footer-col {
 	margin-top: 60px;
+	font-size: 1.05em;
+
+	p a {
+		font-size: 0.85em;
+	}
 }
 
 .footer-about {

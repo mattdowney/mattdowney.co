@@ -23,13 +23,23 @@
 
 	p {
 		margin-bottom: 30px;
-		font-size: 18px;
+		font-size: 1.35em;
+		line-height: 1.5em;
+
+		a {
+			font-size: 0.85em;
+		}
 	}
 
 	p.about-text-intro {
-		font-size: 26px;
-		line-height: 1.5em;
+		font-size: 1.7em;
+		line-height: 1.6em;
 		font-weight: 300;
+		font-family: 'Rubik', sans-serif;
+
+		a {
+			font-size: inherit;
+		}
 	}
 }
 

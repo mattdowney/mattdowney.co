@@ -95,7 +95,7 @@
 
 	p {
 		margin: 50px auto;
-		font-size: 39px;
+		font-size: 2.2em;
   		font-weight: lighter;
   		line-height: 1.35;
   		font-family: 'Alegreya', serif;
@@ -166,8 +166,8 @@
 		width: 66%;
 		margin: 0 auto;
 		text-align: left;
-		font-size: 21px;
-		line-height: 1.6;
+		font-size: 1.35em;
+		line-height: 1.5;
 	}
 
 	@media (max-width: 800px) {
@@ -180,6 +180,7 @@
 		margin: 0 auto 100px auto;
 		font-size: inherit;
 		text-align: center;
+		font-family: "Rubik", sans-serif;
 	}
 
 	.share-case {
@@ -230,11 +231,16 @@
 
 	p.case-intro {
 		margin-bottom: 40px;
-		font-size: 34px;
+		font-size: 1.75em;
 		font-weight: 300;
+		font-family: 'Rubik', sans-serif;
 		line-height: 1.35;
 		color: $text;
 		text-align: left;
+
+		a {
+			font-size: inherit;
+		}
 	}
 
 	p.case-secondary {
