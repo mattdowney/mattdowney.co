@@ -11,7 +11,7 @@ Version: 1.0
 /* Yellow */
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500);
 @import url("https://fonts.googleapis.com/css?family=Alegreya:400,400i");
-@import url("https://fonts.googleapis.com/css?family=Yrsa");
+@import url("https://fonts.googleapis.com/css?family=Gentium+Basic");
 .clearfix:after {
   content: " ";
   display: block;
@@ -47,7 +47,7 @@ Version: 1.0
 
 p {
   margin: 0 0 20px 0;
-  font-family: 'Yrsa', serif;
+  font-family: 'Gentium Basic', serif;
   font-size: 1.2em;
   line-height: 1.4; }
 
@@ -1239,6 +1239,8 @@ a.hero-cat:hover {
     text-align: left;
     font-size: 1.35em;
     line-height: 1.5; }
+    .case-wrap p.case-study a {
+      font-size: 0.85em; }
   @media (max-width: 800px) {
     .case-wrap p {
       width: 100%; } }
@@ -1476,6 +1478,10 @@ a.hero-cat:hover {
   font-size: 28px;
   font-weight: 400;
   color: #4b4e69; }
+
+.post-content p {
+  font-size: 1.2em;
+  line-height: 1.5; }
 
 .post-content p a {
   font-size: 0.85em; }
