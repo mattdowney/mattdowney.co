@@ -30,10 +30,10 @@ header {
 	.menu-toggle {
 		margin: 15px 0 0 0;
 		font-size: 2em;
-    color: #fff;
+    color: $text;
 
     &:hover {
-      color: $hover-color;
+      color: $link-color;
     }
 	}
 }
@@ -147,7 +147,7 @@ ul.navigation-menu {
     
 .main-nav li a {
   font-size: 33px;
-  color: #fff;
+  color: $text;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
   position: relative;
@@ -167,7 +167,7 @@ ul.navigation-menu {
   }
   
   &:hover {
-    color: #fff;
+    color: $hover-color;
     &:after {
       width: 100%;
     }
@@ -247,15 +247,15 @@ ul.navigation-menu {
 	border: none;
 	width: 40%;
 	padding: 10px 14px 11px 14px;
-	color: #fff;
+	color: $text;
 	font-size: 20px;
 	outline: none;
 	background: transparent;
-	border: 2px solid rgba(255,255,255,0.4);
+	border: 2px solid $text;
 }
 
 .nav-search input:focus {
-	border: 2px solid rgba(255,255,255,1);
+	border: 2px solid $text;
 }
 
 @media (max-width: 870px) {
