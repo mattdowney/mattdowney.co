@@ -1434,8 +1434,8 @@ a.hero-cat:hover {
 .search-title {
   margin: 0 0 10px 0;
   font-size: 50px;
-  font-weight: normal;
-  line-height: 1.25em;
+  font-weight: 300;
+  line-height: 1.20em;
   color: #4b4e69;
   text-align: center; }
   .search-title a {
