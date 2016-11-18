@@ -105,19 +105,19 @@
 }
 
 .post-content p {
-	font-size: 1.2em;
-	line-height: 1.5;
+	font-size: 1.1em;
+	line-height: 1.75;
 }
 
 .post-content p a {
-	font-size: 0.85em;
+	font-size: 0.9em;
 }
 
 .post-content blockquote p {
 	float: right;
 	width: 40%;
 	margin: 7px 0 40px 40px;
-	padding: 40px 30px 10px 30px;
+	padding: 40px 30px 25px 30px;
 	font-family: 'Alegreya', sans-serif;
 	font-weight: lighter;
 	font-style: italic;
@@ -129,8 +129,13 @@
 	background-size: 35px 5px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
 	.post-content blockquote {
+		margin: 0;
+		padding: 0;
+	}
+
+	.post-content blockquote p {
 		float: none;
 		display: block;
 		width: 100%;

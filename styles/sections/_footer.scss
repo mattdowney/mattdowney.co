@@ -12,16 +12,24 @@
 	list-style-type: none;
 
 	li a {
-		font-size: 1.05em;
+		font-size: 1.1em;
 	}
 }
 
 .footer-col {
 	margin-top: 60px;
-	font-size: 1.05em;
+	font-size: 0.95em;
+
+	h3 {
+		font-size: 0.95em;
+	}
+
+	p {
+		line-height: 1.6;
+	}
 
 	p a {
-		font-size: 0.85em;
+		font-size: 0.9em;
 	}
 }
 

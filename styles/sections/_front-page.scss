@@ -4,8 +4,8 @@ h1.greeting {
 	font-size: 34px;
 	font-weight: 300;
 	width: 66%;
-	margin: 60px auto 90px auto;
-	line-height: 1.35;
+	margin: 40px auto 100px auto;
+	line-height: 1.38;
 
 	span {
 		display: block;
@@ -98,7 +98,7 @@ a.hero-cat:hover {
 .hero-excerpt p {
 	margin: 0 0 2em 0;
 	font-size: 1.3em;
-	line-height: 1.4;
+	line-height: 1.5;
 	color: $text;
 }
 
@@ -182,7 +182,7 @@ a.hero-cat:hover {
 .article-excerpt p {
 	margin: 0 0 2em 0;
 	font-size: 1.3em;
-	line-height: 1.4;
+	line-height: 1.5;
 }
 
 // Article responsive styles
