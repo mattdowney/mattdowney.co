@@ -2,6 +2,8 @@
   /* Single Page Template */
 ?>
 
+<!-- Testing -->
+
 <?php get_header(); ?>
 
 <div class="scroll-line"></div>

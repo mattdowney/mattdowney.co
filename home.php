@@ -34,11 +34,19 @@
 
 </div> <!-- End article-container -->
 
+<div class="blog-pagination">
+
 <?php the_posts_pagination( array(
     'mid_size' => 2,
     'prev_text' => __( '&#8592;&nbsp; Prev', 'textdomain' ),
     'next_text' => __( 'Next &nbsp;&#8594;', 'textdomain' ),
 ) ); ?>
+
+<div class="blog-archive">
+	<a class="button" href="#">Archives &#10142;</a>
+</div>
+
+</div> <!-- End .blog-pagination -->
 
 <?php get_template_part('includes/newsletter'); ?>
 

@@ -20,7 +20,6 @@
 .blog-article-content {
 	width: 48%;
 	margin-bottom: 4%;
-	background: blue;
 
 	a.blog-article-thumb {
 		display: block;
@@ -118,17 +117,26 @@
 	display: none;
 }
 
-.singular h3.seciton {
+.singular h3.section {
 	display: block;
 }
 
 // Pagination styles
 
-.navigation {
+.blog-pagination {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	margin: 40px 0 90px 0;
 	padding: 0;
 	height: 100%;
-	text-align: center;
+}
+
+.navigation {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	text-align: left;
 }
 
 .navigation h2 {
@@ -160,9 +168,35 @@
 	padding: 12px 20px 10px 20px;
 	border: 2px solid $dark-gray;
 	color: $text;
+
+	&:hover {
+		color: $text;
+		border: 2px solid $hover-color;
+	}
 }
 
-.navigation .nav-links a:hover {
-	color: $text;
-	border: 2px solid $hover-color;
+.blog-archive {
+	text-align: right;
+
+	a {
+		padding: 12px 20px 10px 20px;
+		border: 2px solid $dark-gray;
+		color: $text;
+		font-weight: 500;
+  		font-size: 14px;
+  		text-transform: uppercase;
+  		letter-spacing: 0.05em;
+
+  		&:hover {
+			color: $text;
+			border: 2px solid $hover-color;
+		}
+	}
+}
+
+@media (max-width: 494px) {
+	.blog-archive {
+		margin: 50px 0 0 0;
+		display: block;
+	}
 }
