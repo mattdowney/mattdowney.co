@@ -12,7 +12,6 @@
 			<ul>
 				<li><a href="<?php bloginfo('wpurl'); ?>">Home</a></li>
 				<li><a href="<?php bloginfo('wpurl'); ?>/about/">About</a></li>
-				<li><a href="<?php bloginfo('wpurl'); ?>/work/">Work</a></li>
 				<li><a href="<?php bloginfo('wpurl'); ?>/blog/">Blog</a></li>
 				<li><a href="<?php bloginfo('wpurl'); ?>/contact/">Contact</a></li>
 			</ul>

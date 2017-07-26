@@ -1,6 +1,5 @@
 <ul class="navigation-menu">
   <li><a class="menu-about" href="<?php bloginfo('wpurl'); ?>/about/">About</a></li>
-  <li><a class="menu-work" href="<?php bloginfo('wpurl'); ?>/work/">Work</a></li>
   <li><a class="menu-blog" href="<?php bloginfo('wpurl'); ?>/blog/">Blog</a></li>
   <li><a class="menu-contact" href="<?php bloginfo('wpurl'); ?>/contact/">Contact</a></li>
 </ul>
@@ -17,7 +16,6 @@
 
       <ul>
         <li><a href="<?php bloginfo('wpurl'); ?>/about/">About</a></li>
-        <li><a href="<?php bloginfo('wpurl'); ?>/work/">Work</a></li>
         <li><a href="<?php bloginfo('wpurl'); ?>/blog/">Blog</a></li>
         <li><a href="<?php bloginfo('wpurl'); ?>/contact/">Contact</a></li>
     </ul>
