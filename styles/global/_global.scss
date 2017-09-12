@@ -58,7 +58,7 @@ p a,.greeting a,.blog-greeting a,.greeting-centered a, .footer ul a, ul.navigati
   color: $link-color;
   font-family: 'Rubik', sans-serif;
   position: relative;
-  padding-bottom: 2px;
+  padding-bottom: 0px;
   
   &:after {
     content: '';
@@ -203,7 +203,7 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
   background-image: url(images/bg-newsletter@2x.png);
-  background-size: 75% auto;
+  background-size: 70% auto;
 }
 
 .blog .newsletter {
