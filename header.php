@@ -7,7 +7,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="google-site-verification" content="HJ8hMLJekYWmaI9m9kf4fo2SrZhLqvQ6Re2Ybitndbw" />
 		<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
-		<script src="/mint/?js" type="text/javascript"></script>
 		<?php wp_head(); ?>
 	</head>
 
