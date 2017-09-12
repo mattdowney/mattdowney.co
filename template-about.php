@@ -14,9 +14,9 @@
 		</video>
 	</div>
 
-	<div class="about-img">
+	<!--<div class="about-img">
 		<img src="<?php bloginfo('template_url'); ?>/images/bg-matt@2x.jpg" srcset="<?php bloginfo('template_url'); ?>/images/bg-matt@2x.jpg 2x" alt="Matt Downey" />
-	</div> <!--End about-img -->
+	</div> End about-img -->
 
 	<div id="story" class="about-text">
 		<br>
