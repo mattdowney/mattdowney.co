@@ -9,7 +9,7 @@
 <div class="about-content">
 	<div class="video-wrapper">
     	<video class="bio-profile" autoplay loop>
-			<source src="<?php bloginfo('template_url'); ?>/video/bio-profile.mp4" type="video/mp4">
+			<source src="http://mattdowney.co/wp-content/themes/mattdowney.co/video/bio-profile.mp4" type="video/mp4">
 			Your browser does not support the video tag.
 		</video>
 	</div>
