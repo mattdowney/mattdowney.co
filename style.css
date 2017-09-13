@@ -179,11 +179,12 @@ body {
   margin: 0;
   margin-top: 60px;
   padding: 30px 40px 36px 40px;
-  background-color: #f1f0f4;
+  background-color: #f96577;
   background-repeat: repeat;
   background-attachment: fixed;
   background-image: url(images/bg-newsletter@2x.png);
-  background-size: 68% auto; }
+  background-size: 784px 347px;
+  background-size: 60% auto; }
 
 .blog .newsletter {
   margin-top: 20px; }
@@ -192,7 +193,7 @@ body {
   margin: 0 0 20px 0;
   padding: 0;
   color: #fff;
-  font-size: 1.7em;
+  font-size: 2em;
   line-height: 1.3;
   font-family: 'Rubik', sans-serif;
   font-weight: 300; }
@@ -212,7 +213,7 @@ body {
   color: rgba(255, 255, 255, 0.6); }
 
 .newsletter-content {
-  width: 45%; }
+  width: 60%; }
 
 #mc_embed_signup_scroll {
   display: -webkit-box;
@@ -228,10 +229,9 @@ body {
 
 #mc_embed_signup_scroll .required {
   margin: 0 20px 0 0;
-  padding: 11px 30px 10px 12px;
+  padding: 14px 30px 13px 12px;
   border: none;
   color: #4b4e69;
-  border: 2px solid #fff;
   background: #fff;
   font-family: "Rubik", sans-serif;
   outline: none;
@@ -241,8 +241,7 @@ body {
           flex-grow: 2; }
 
 #mc_embed_signup_scroll .required:focus {
-  color: #4b4e69;
-  border: 2px solid #4b4e69; }
+  color: #4b4e69; }
 
 #mc-embedded-subscribe {
   font-family: "Rubik", sans-serif;
@@ -250,22 +249,23 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #f96577;
+  color: #46e1e2;
   margin: 0;
   background-color: #fff;
-  padding: 12px 20px 12px 20px;
-  border: 2px solid #fff;
+  padding: 15px 20px 15px 20px;
   outline: none;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  border: none;
+  border: 0;
   -webkit-transition: border-color 0.15s ease;
   transition: border-color 0.15s ease; }
 
 #mc-embedded-subscribe:hover {
   cursor: hand;
-  color: #46e1e2;
-  border: 2px solid #fff;
+  color: #fff;
+  background: #46e1e2;
   outline: none; }
 
 @media (max-width: 1130px) {
@@ -279,7 +279,7 @@ body {
     width: 60%; } }
 @media (max-width: 950px) {
   .newsletter {
-    background: #f1f0f4 url(images/bg-newsletter@2x.png) 450px -100px;
+    background: #f96577 url(images/bg-newsletter@2x.png) 450px -100px;
     background-size: 784px 347px;
     background-attachment: fixed;
     background-repeat: repeat-y; }

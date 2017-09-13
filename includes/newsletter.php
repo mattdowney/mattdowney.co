@@ -1,6 +1,6 @@
 <div class="newsletter">
 	<div class="newsletter-content">
-		<h2>Get access to exclusive content, my best tips, and first dibs on all my articles.</h2>
+		<h2>Get access to exclusive content, my best tips, and first dibs on all my articles. 🙌</h2>
 
 		<div id="mc_embed_signup">
 			<form action="//mattdowney.us13.list-manage.com/subscribe/post?u=0d22f86ddb2d5475a7f43860b&amp;id=da9f46f8c9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
