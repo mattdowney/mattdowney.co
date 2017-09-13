@@ -8,7 +8,7 @@
 
 <div class="about-content">
 	<div class="video-container">
-			<iframe src="https://www.youtube.com/embed/rpcIQCGUDiE?=hd1080&theme=light&autoplay=1&loop=1&playlist=rpcIQCGUDiE&controls=0&keyboard=0&autohide=1&modestbranding=1&fs=0&showinfo=0&rel=0" frameborder="0"></iframe>
+			<iframe src="https://www.youtube.com/embed/Qt4eL99EokM?&theme=light&autoplay=1&loop=1&playlist=Qt4eL99EokM&controls=0&keyboard=0&autohide=1&modestbranding=1&fs=0&showinfo=0&rel=0" frameborder="0"></iframe>
 		</div> <!-- End .video-container -->
 	<!--<div class="video-wrapper">
     	<video preload="auto" autoplay loop muted>
@@ -28,7 +28,7 @@
 		<br>
 
 		<h3 class="section-title">About Me</h3>
-	
+	 
 		<p class="about-text-intro">My journey into web design began in 2004. I had just graduated from <a href="http://gsu.edu">Georgia State University</a> with a Bachelor's Degree in Marketing and took a job that would move me across the country from ATL to PDX.</p>
 
 		<p>While working in the Pacific Northwest, I was thrown in to the most creative and energizing environment I had ever experienced. I was surrounded by smart people, innovative ideas, and tons of new technology.</p> 
