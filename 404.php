@@ -2,7 +2,7 @@
 
 			<h1 class="greeting">
 				<span>404</span>
-				Sorry, we can't find what you're looking for. Maybe you'd be interested in reading <a href="<?php bloginfo('wpurl'); ?>/blog">my blog</a> or have a look at recent articles below.
+				Sorry, we can't find what you're looking for. Maybe you'd be interested in reading <a href="<?php bloginfo('wpurl'); ?>/about/">more about me</a> or have a look at recent articles below.
 			</h1>
 
 			<div class="article-container">
