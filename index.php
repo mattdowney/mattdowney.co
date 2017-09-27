@@ -13,7 +13,7 @@
 	<div class="post-wrap">
 		<span class="post-cat"><?php exclude_post_categories("1"); ?></span>
 		<h1 class="post-title"><?php the_title(); ?></h1>
-		<span class="reading-time">Reading time is about <?php echo reading_time(); ?></span>
+		<span class="reading-time">It will take about <?php echo reading_time(); ?> to read this article</span>
 
 		<?php if ( has_post_thumbnail() ) : ?>
 			<?php if ( has_post_thumbnail() ) : ?>
