@@ -1451,7 +1451,7 @@ a.hero-cat:hover {
       width: 100%; } }
 .scroll-line {
   height: 5px;
-  background: #f96577;
+  background: #46e1e2;
   width: 0%;
   z-index: 99;
   position: fixed;
