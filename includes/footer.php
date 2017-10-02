@@ -23,6 +23,7 @@
 				<li><a href="http://twitter.com/mattdowney">Twitter</a></li>
 				<li><a href="http://dribbble.com/mattdowney">Dribbble</a></li>
 				<li><a href="http://instagram.com/mattdowney">Instagram</a></li>
+				<li><a href="https://medium.com/@mattdowney">Medium</a></li>
 			</ul>
 		</div> <!-- End footer-navigate -->
 
