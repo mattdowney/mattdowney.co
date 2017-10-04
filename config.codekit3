@@ -186,14 +186,24 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bg-newsletter-halloween@2x.jpg": {
+		"ft": 16384,
+		"iS": 35499,
+		"oA": 0,
+		"oAP": "\/images\/bg-newsletter-halloween@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/bg-newsletter-halloween@2x.png": {
 		"ft": 32768,
 		"iS": 1169520,
 		"oA": 0,
 		"oAP": "\/images\/bg-newsletter-halloween@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -727,6 +737,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/logo-halloween.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-halloween.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/logo.sketch": {
 		"ft": 8192,
@@ -1562,6 +1582,12 @@
 		"oAP": "\/includes\/logo-cloud.php",
 		"oF": 0
 		},
+	"\/includes\/logo-halloween.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/includes\/logo-halloween.php",
+		"oF": 0
+		},
 	"\/includes\/logo.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -1572,6 +1598,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/includes\/nav-menu.php",
+		"oF": 0
+		},
+	"\/includes\/newsletter-halloween.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/includes\/newsletter-halloween.php",
 		"oF": 0
 		},
 	"\/includes\/newsletter.php": {

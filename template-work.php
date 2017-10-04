@@ -150,7 +150,7 @@
 
 </div> <!-- End work-content -->
 
-<?php get_template_part('includes/newsletter'); ?>
+<?php get_template_part('includes/newsletter-halloween'); ?>
 
 <?php get_template_part('includes/footer'); ?>
 

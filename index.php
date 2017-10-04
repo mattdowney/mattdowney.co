@@ -45,7 +45,7 @@
 ) ); ?>
 
 <?php //get_template_part('includes/blog-footer'); ?>
-<?php get_template_part('includes/newsletter'); ?>
+<?php get_template_part('includes/newsletter-halloween'); ?>
 <?php get_template_part('includes/footer'); ?>
 
 <?php get_footer(); ?>
