@@ -8,7 +8,7 @@
 				<span>
 				<?php
 				// $input = array("Hey!", "Hello!", "Hola!", "Howdy!", "Bonjour!", "Guten Tag!", "Namaste!", "Ciao!", "Konnichiwa!", "Ni Hau!");
-				$input = ("Happy Halloween!");
+				$input = array("Happy Halloween!", "I believe in the Great Pumpkin.", "I ain't afraid of no ghost!", "Eat, Drink, And Be Scary!");
 				$rand_keys = array_rand($input, 2);
 				echo $input[$rand_keys[0]] . "\n";
 				?>
