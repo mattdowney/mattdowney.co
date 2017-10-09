@@ -92,7 +92,7 @@ a.hero-cat:hover {
 }
 
 .hero-excerpt h2 a:hover {
-	color: $link-color;
+	color: $hover-color !important;
 }
 
 .hero-excerpt p {
@@ -116,12 +116,7 @@ a.hero-cat:hover {
 	.hero-excerpt {
 		display: block;
 		max-width: 100%;
-	}
-}
-
-@media (max-width: 730px) {
-	.hero-excerpt {
-		padding: 50px 20px 30px 20px;
+		padding-bottom: 5rem;
 	}
 }
 
@@ -176,7 +171,7 @@ a.hero-cat:hover {
 }
 
 .article-excerpt h2 a:hover {
-	color: $link-color;
+	color: $hover-color !important;
 }
 
 .article-excerpt p {
@@ -188,17 +183,16 @@ a.hero-cat:hover {
 // Article responsive styles
 
 @media (max-width: 1224px) {
-	.article-container {
-		border-bottom: 1px solid $bg;
-		border-right: 1px solid $bg;
+	.article-excerpt {
+		border: none;
 	}
 
 	.article-excerpt {
 		border: none;
 	}
 
-	.article-excerpt {
-		border-left: 1px solid $bg;
+	.article-content {
+		border-right: 1px solid $bg;
 	}
 }
 
@@ -237,7 +231,7 @@ a.hero-cat:hover {
 	}
 
 	.article-excerpt:nth-child(2) {
-		border-left: 1px solid $bg;
+		border: none;
 	}
 }
 
@@ -251,9 +245,13 @@ a.hero-cat:hover {
 
 	.article-excerpt {
 		margin: -1px 0 10% 0;
-		padding: 50px 20px 30px 20px;
 		max-width: 100%;
-		border: 1px solid $bg;
+		border: none;
+	}
+
+	.article-content {
+		padding-bottom: 0.1rem;
+		margin-bottom: 4rem;
 	}
 
 	.article-content:nth-child(3) {

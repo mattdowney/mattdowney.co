@@ -2,15 +2,9 @@
 	margin-top: 60px;
 	padding: 30px 40px 36px 40px;
 	background-color: $dark-gray;
-	background-repeat: repeat;
-	background-attachment: fixed;
-	background-size: 784px 347px;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	background-size: 120% auto;
 	background-image: url(images/bg-newsletter-halloween@2x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #mc_embed_signup_scroll {

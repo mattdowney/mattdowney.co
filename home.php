@@ -43,7 +43,7 @@
 ) ); ?>
 
 <div class="blog-archive">
-	<a class="button" href="#">Archives &#10142;</a>
+	<!-- <a class="button">Archives &#10142;</a>-->
 </div>
 
 </div> <!-- End .blog-pagination -->

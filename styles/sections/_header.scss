@@ -204,16 +204,14 @@ ul.navigation-menu {
 	color: $underline-color;
 }
 
-.menu-toggle-close:hover {
-	color: #fff;
-}
-
-.menu-toggle-close {
+a.menu-toggle-close svg {
   position: absolute;
-  top: 15px;
-  right: 30px;
+  top: 2rem;
+  right: -14.5rem;
   font-family: 'Icons';
   color: #fff;
+  cursor: pointer;
+  cursor: hand;
 }
 
 .nav-search {

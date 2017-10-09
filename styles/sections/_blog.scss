@@ -127,16 +127,18 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 40px 0 90px 0;
+	margin: 40px 0 110px 0;
 	padding: 0;
 	height: 100%;
+	position: relative;
 }
 
 .navigation {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	text-align: left;
+	position: absolute;
+	right: 0;
 }
 
 .navigation h2 {

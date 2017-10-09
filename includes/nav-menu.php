@@ -8,11 +8,23 @@
 
 <div id="gradient" class="full-menu full-menu-transition">
   <div class="full-menu-middle">
-    <a class="menu-toggle menu-toggle-close">c</a>
+    <a class="menu-toggle menu-toggle-close">
+      <svg viewPort="0 0 30 30" version="1.1"
+         xmlns="http://www.w3.org/2000/svg">
+        <line x1="1" y1="30" 
+              x2="30" y2="1" 
+              stroke="white" 
+              stroke-width="3"/>
+        <line x1="1" y1="1" 
+              x2="30" y2="30" 
+              stroke="white" 
+              stroke-width="3"/>
+      </svg>
+    </a>
 
     <div class="main-nav">
 
-      <?php get_template_part('includes/logo'); ?>
+      <?php get_template_part('includes/logo-halloween'); ?>
 
       <ul>
         <li><a href="<?php bloginfo('wpurl'); ?>/about/">About</a></li>
