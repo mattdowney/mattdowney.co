@@ -47,6 +47,11 @@
 			<iframe src="https://www.youtube.com/embed/dY1XO0xCDU0?=hd720&theme=light&autoplay=1&loop=1&playlist=dY1XO0xCDU0&controls=0&keyboard=0&autohide=1&modestbranding=1&fs=0&showinfo=0&rel=0"frameborder="0"></iframe>
 		</div> <!-- End .video-container -->
 
+		<div class="testimonial">
+			<p><i>"It is an absolute pleasure working with you. Your design eye is top notch and you always know how to bring a flair of creativity. Thanks for an awesome year!"</i></p>
+			<p class="testimonial-author">Josy Hamren <span>Marketing, <a href="http://foursquare.com">Foursquare</a></span></p>
+		</div> <!-- End .testimonial -->
+
 		<div class="share-case">
 				<a class="button" href="http://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>"><span>f</span> Share on Facebook</a>
 				<a class="button" href="https://twitter.com/intent/tweet?url=<?php echo htmlspecialchars(urlencode(html_entity_decode(the_permalink(), ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8'); ?>&amp;text=<?php echo get_the_title(); ?>&amp;via=mattdowney" target="_blank"><span>t</span> Share on Twitter</a>

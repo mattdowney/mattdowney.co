@@ -1,0 +1,232 @@
+.ringtone-content {
+	margin: 5rem 0;
+	text-align: center;
+
+	.note {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	.mask {
+		display: block;
+		margin: 0 auto;
+		max-width: 90px;
+		max-height: 109px;
+		overflow: hidden;
+		background: $dark-gray;
+	}
+
+	.gradient {
+		background: url(images/bg-dots.png) repeat;
+		z-index: 98;
+		-webkit-animation-name: masked-animation;
+		-webkit-animation-duration: 3s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+	}
+
+	@-webkit-keyframes masked-animation {
+		0% { background-position: right; }
+		100% {background-position: left; }
+	}
+
+	.gradient img {
+		width: 100%;
+		height: auto;
+		z-index: 99;
+	}
+
+	h1 {
+		font-size: 2.75rem;
+	    font-weight: 300;
+	    width: 60%;
+	    margin: 2.5rem auto 1.25rem auto;
+	    line-height: 2.75rem;
+	}
+
+	p {
+		margin: 0 auto 2rem auto;
+		width: 55%;
+	}
+
+	.cta-buttons {
+		display: flex;
+		justify-content: center;
+		font-weight: 500;
+		text-transform: uppercase;
+		position: relative;
+	}
+
+	.preview {
+		background: $dark-gray;
+		display: block;
+
+		.sc_player_container1 {
+			input.myButton_play {
+				padding: 1rem 1.5rem;
+				background-image: url(images/img-play-button@2x.png);
+				background-size: 12px 16px;
+				background-color: $dark-gray;
+				background-repeat: no-repeat;
+			    background-position: 50% 50%; 
+			    border: none;
+
+				&:focus, &:hover {
+					border: none;
+					outline: none;
+					background-color: $underline-color;
+				}
+			}
+
+			input.myButton_stop {
+				padding: 1rem 1.5rem;
+				background-image: url(images/img-stop-button@2x.png);
+				background-size: 16px 16px;
+				background-color: $dark-gray;
+				background-repeat: no-repeat;
+			    background-position: 50% 50%; 
+			    border: none;
+
+				&:focus, &:hover {
+					border: none;
+					outline: none;
+					background-color: $underline-color;
+				}
+			}
+		}
+	}
+
+	.buy-now {
+		background: $link-color;
+
+		&:hover {
+			background: $underline-color;
+			cursor: hand;
+			cursor: pointer;
+		}
+
+		a {
+			padding: 1rem 1.5rem;
+			display: inline-block;
+			color: $white;
+
+			&:hover {
+				background: $underline-color;
+				cursor: hand;
+				cursor: pointer;
+			}
+		}
+	}
+
+	.share-buttons {
+		margin: 3.125rem auto 3.125rem auto;
+		border: none;
+		outline: none;
+
+		a {
+			font-family: 'Rubik', sans-serif;
+			margin: 0 auto;
+			line-height: 0;
+			font-size: 1.75rem;
+			color: $dark-gray;
+
+			&:hover {
+				color: $link-color;
+			}
+		}
+
+		a.facebook, a.twitter {
+			margin-right: 2rem;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.ringtone-content {
+		text-align: left;
+
+		.mask {
+			margin: 0;
+		}
+		h1 {
+		    width: 100%;
+		}
+
+		p {
+			width: 100%;
+		}
+
+		.cta-buttons {
+			justify-content: left;
+		}
+	}
+}
+
+@media (max-width: 400px) {
+
+}
+
+/*.stripe-button-el {
+	padding: 0 !important;
+	background-image: none !important;
+	border-radius: 0px !important;
+	overflow: hidden !important;
+	box-shadow: inset 0 0 0 rgba(255,255,255,0) !important;
+
+	&:hover {
+		background-color: $hover-color !important;
+	}
+}
+
+.stripe-button-el span {
+	font-family: 'Rubik', sans-serif !important;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+	padding: 11px 50px 11px 50px !important;
+	background: none !important;
+	background-image: none !important;
+	color: #fff !important;
+	text-shadow: 0 0 0 rgba(0,0,0,0) !important;
+	border-radius: 0px !important;
+	background-color: $link-color !important;
+	font-size: 16px !important;
+	box-shadow: inset 0 0 0 rgba(255,255,255,0) !important;
+
+	&:hover {
+		background-color: $hover-color !important;
+	}
+}
+
+.buy-now a.gumroad-button {
+	background-image: none !important;
+	background-color: transparent !important;
+	background-repeat: none !important;
+	border-radius: 0px !important;
+	box-shadow: rgba(0,0,0,0) 0 0 0 !important;
+	color: #fff !important;
+	font-family: "Rubik", sans-serif !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: #fff !important;
+  margin: 0 !important;
+  box-shadow: 0px 0px 0px $link-color inset !important;
+  transition: 0.15s ease !important;
+  display: inline !important;
+  padding: 30px 10px !important;
+  line-height: 2 !important;
+  font-size: inherit !important;
+  overflow: hidden !important;
+  background: yellow;
+}
+
+.buy-now a span {
+	height: inherit !important;
+	width: inherit !important;
+	background-image: none !important;
+	margin: 0 !important;
+}
+
+body div.gumroad-loading-indicator {
+	top: 33.5% !important;
+}*/

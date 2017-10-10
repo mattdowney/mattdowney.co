@@ -15,7 +15,7 @@
 .section-title {
   margin: 0 0 30px 0;
   padding: 0 0 20px 0;
-  background: url(images/section-divide-dark-bg.png) bottom left no-repeat;
+  background: url(images/section-divide-bg.png) bottom left no-repeat;
   text-transform: uppercase;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
@@ -45,8 +45,9 @@
 p {
   margin: 0 0 20px 0;
   font-family: 'Source Serif Pro', serif;
-  font-size: 1.2em;
-  line-height: 1.4;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-bottom: 2.5rem;
 }
 
 p a {
@@ -86,8 +87,13 @@ em {
   font-style: italic;
 }
 
-strong {
+strong, b {
   font-weight: bold;
+}
+
+b.highlight {
+  color: $link-color;
+  text-transform: uppercase;
 }
 
 hr {
@@ -160,6 +166,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: $text;
+  margin-bottom: 2rem;
   padding: 12px 20px 12px 20px;
   border: 2px solid $link-color;
   box-shadow: 0px 0px 0px $link-color inset;
@@ -285,6 +292,32 @@ body {
   color: #fff;
   background: $hover-color;
   outline: none;
+}
+
+// Scrollbar
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $bg;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $dark-gray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: $dark-gray;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $dark-gray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: $dark-gray;
 }
 
 // Newsletter responsive styles

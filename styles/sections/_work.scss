@@ -33,6 +33,10 @@
 	}
 }
 
+.video-container {
+	margin-bottom: 6rem;
+}
+
 @media (max-width: 800px) {
 	.work-content {
 		margin: 0;
@@ -84,7 +88,7 @@
 	svg:hover #netpure,
 	svg:hover #jtc,
 	svg:hover #fpcu {
-		fill: $text;
+		fill: $bg;
 	}
 }
 

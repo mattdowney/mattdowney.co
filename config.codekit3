@@ -130,8 +130,8 @@
 		"oA": 0,
 		"oAP": "\/images\/bg-dots.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -733,6 +733,50 @@
 		"oA": 0,
 		"oAP": "\/images\/img-note-mask.png",
 		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/img-play-button.png": {
+		"ft": 32768,
+		"iS": 274,
+		"oA": 0,
+		"oAP": "\/images\/img-play-button.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/img-play-button@2x.png": {
+		"ft": 32768,
+		"iS": 431,
+		"oA": 0,
+		"oAP": "\/images\/img-play-button@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/img-stop-button.png": {
+		"ft": 32768,
+		"iS": 103,
+		"oA": 0,
+		"oAP": "\/images\/img-stop-button.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/img-stop-button@2x.png": {
+		"ft": 32768,
+		"iS": 123,
+		"oA": 0,
+		"oAP": "\/images\/img-stop-button@2x.png",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -790,8 +834,8 @@
 		"oA": 0,
 		"oAP": "\/images\/section-divide-bg.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -801,9 +845,19 @@
 		"oA": 0,
 		"oAP": "\/images\/section-divide-dark-bg.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/sharer.jpg": {
+		"ft": 16384,
+		"iS": 34642,
+		"oA": 0,
+		"oAP": "\/images\/sharer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/uncompressed-images.zip": {
@@ -1845,7 +1899,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/styles\/sections\/_protones.scss": {
+	"\/styles\/sections\/_ringtones.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1853,7 +1907,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/_protones.css",
+		"oAP": "\/_ringtones.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1976,6 +2030,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-protones.php",
+		"oF": 0
+		},
+	"\/template-ringtones.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-ringtones.php",
 		"oF": 0
 		},
 	"\/template-work.php": {

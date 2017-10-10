@@ -95,13 +95,6 @@ a.hero-cat:hover {
 	color: $hover-color !important;
 }
 
-.hero-excerpt p {
-	margin: 0 0 2em 0;
-	font-size: 1.3em;
-	line-height: 1.5;
-	color: $text;
-}
-
 // Hero responsive styles
 
 @media (max-width: 1005px) {
@@ -172,12 +165,6 @@ a.hero-cat:hover {
 
 .article-excerpt h2 a:hover {
 	color: $hover-color !important;
-}
-
-.article-excerpt p {
-	margin: 0 0 2em 0;
-	font-size: 1.3em;
-	line-height: 1.5;
 }
 
 // Article responsive styles

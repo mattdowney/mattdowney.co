@@ -49,9 +49,9 @@
 		</div> <!-- End .case-image-full -->
 
 		<div class="testimonial">
-		<p><i>"I've worked with Matt for over 5 years. So when my new product needed branding and UI quickly, the choice was obvious. Matt was able to support our rapid timeline and deliver an experience that was easy for our customers to use and understand immediately."</i></p>
-		<p class="testimonial-author">Jere Simpson <span>Founder, <a href="http://netpure.com">Netpure</a></span></p>
-	</div> <!-- End .testimonial -->
+			<p><i>"I've worked with Matt for over 5 years. So when my new product needed branding and UI quickly, the choice was obvious. Matt was able to support our rapid timeline and deliver an experience that was easy for our customers to use and understand immediately."</i></p>
+			<p class="testimonial-author">Jere Simpson <span>Founder, <a href="http://netpure.com">Netpure</a></span></p>
+		</div> <!-- End .testimonial -->
 
 		<div class="share-case">
 				<a class="button" href="http://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>"><span>f</span> Share on Facebook</a>

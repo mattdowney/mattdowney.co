@@ -75,3 +75,51 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .reading-time {
   opacity: 0.5;
 }
+
+.wpcf7-form input, .wpcf7-form select, .wpcf7-form textarea {
+  border: 2px solid rgba($white, 0.15) !important;
+
+  &:focus, &:active {
+    border: 2px solid $underline-color !important;
+  }
+}
+
+.wpcf7-form p input.wpcf7-submit {
+  width: 20%;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $text;
+  padding: 12px 20px 12px 20px;
+  border: 2px solid $link-color !important;
+  box-shadow: 0px 0px 0px $link-color inset !important;
+  transition: 0.15s ease;
+  background-color: $bg;
+}
+
+.wpcf7-form p input.wpcf7-submit:hover {
+  color: $text;
+  border: 2px solid $white !important;
+  box-shadow: 0px 0px 0px $white inset !important;
+  background: none;
+  transition: 0;
+}
+
+h1.logo #netpure #img-case-logo-netpure,
+h1.logo #foursquare #img-case-logo-foursquare,
+h1.logo #jtc #img-case-logo-jtc,
+h1.logo #fpcu #img-case-logo-fpcu {
+  fill: $white;
+}
+
+.scroll-line {
+  height: 5px;
+  background: $link-color !important;
+  width: 0%;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

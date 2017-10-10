@@ -3,8 +3,8 @@
 <div class="footer">
 
 	<div class="footer-col footer-about">
-		<h3 class="section-title">About Matt</h3>
-		<p>I'm Matt Downey, a designer specializing in websites, applications, and products. Since 2005, I've worked with hundreds of clients large and small, as well as gained experience with startup environments, product design, and management. <a href="<?php bloginfo('wpurl'); ?>/about/">Read more &#10142;</a></p>
+		<h3 class="section-title">About</h3>
+		<p>I'm Matt Downey, a designer specializing in websites, applications, and products. <a href="<?php bloginfo('wpurl'); ?>/about/">Read more &#10142;</a></p>
 	</div> <!-- End footer-about -->
 
 		<div class="footer-col footer-navigate">
@@ -12,7 +12,9 @@
 			<ul>
 				<li><a href="<?php bloginfo('wpurl'); ?>">Home</a></li>
 				<li><a href="<?php bloginfo('wpurl'); ?>/about/">About</a></li>
+				<li><a href="<?php bloginfo('wpurl'); ?>/work/">Work</a></li>
 				<li><a href="<?php bloginfo('wpurl'); ?>/blog/">Blog</a></li>
+				<li><a href="<?php bloginfo('wpurl'); ?>/iphone-ringtones/">Ringtones</a></li>
 				<li><a href="<?php bloginfo('wpurl'); ?>/contact/">Contact</a></li>
 			</ul>
 		</div> <!-- End footer-navigate -->
