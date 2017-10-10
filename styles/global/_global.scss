@@ -204,8 +204,8 @@ body {
 
 .newsletter {
   margin: 0;
-  margin-top: 60px;
-  padding: 30px 40px 36px 40px;
+  margin-top: 3.75rem;
+  padding: 1.5rem 2.5rem;
   background-color: $link-color;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -222,8 +222,8 @@ body {
   margin: 0 0 20px 0;
   padding: 0;
   color: #fff;
-  font-size: 2em;
-  line-height: 1.3;
+  font-size: 2rem;
+  line-height: 2.6rem;
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
 }
@@ -294,6 +294,27 @@ body {
   outline: none;
 }
 
+// Newsletter responsive styles
+
+@media (max-width: 790px) {
+  .newsletter-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 555px) {
+  .newsletter {
+    padding: 0;
+  }
+  .newsletter-content {
+    .mc-field-group input {
+      width: 87.5%;
+      display: block;
+      margin-bottom: 1.5rem !important;
+    }
+  }
+}
+
 // Scrollbar
 
 ::-webkit-scrollbar {
@@ -319,52 +340,3 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: $dark-gray;
 }
-
-// Newsletter responsive styles
-
-/*@media (max-width: 1130px) {
-  .newsletter {
-    background: $dark-gray url(images/bg-newsletter@2x.png) no-repeat 500px 0;
-    background-size: 784px 347px;
-  }
-
-  .newsletter-content {
-    width: 60%;
-  }
-}
-
-@media (max-width: 950px) {
-  .newsletter {
-    background: $link-color url(images/bg-newsletter@2x.png) 450px -100px;
-    background-size: 784px 347px;
-    background-attachment: fixed;
-    background-repeat: repeat-y;
-  }
-
-  .newsletter-content {
-    width: 80%;
-  }
-}
-
-@media (max-width: 730px) {
-  .newsletter {
-    display: block;
-    margin: 0;
-    margin-top: 60px;
-    padding: 50px 20px;
-    background-image: none;
-  }
-
-  #mc_embed_signup_scroll {
-    display: block;
-    margin: 0;
-    padding: 0;
-}
-
-  #mc_embed_signup_scroll .required {
-    display: inline-block; 
-    margin: 0 0 20px 0;
-    padding: 12px 20px 10px 12px;
-    width: 100%;
-  }
-}*/
