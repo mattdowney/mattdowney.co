@@ -32,8 +32,6 @@
 		<a href="http://www.facebook.com/sharer/sharer.php?u=http://mcd.uno/2yc1aRf" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 		
 		<a href="https://twitter.com/intent/tweet?url=<?php echo htmlspecialchars(urlencode(html_entity_decode('http://mcd.uno/2yc1aRf', ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8'); ?>&amp;text=These hand-crafted iPhone ringtones and alerts by @mattdowney are distinct, polished, and one of a kind." target="_blank" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-		
-		<a href="//pinterest.com/pin/create/link/?url=http%3A%2F%mcd.uno%2F2yc1aRf&media=http%3A%2F%2Fmattdowney.co%2Fwp-content%2Fthemes%2Fmattdowney.co%2Fimages%2Fsharer.jpg%2F&description=These%20hand-crafted%20iPhone%20ringtones%20by%20@mattdowney%20are%20distinct%20,%20polished,%20and%20one%20of%20a%20kind." count-layout="horizontal" target="_blank" class="pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
 	</div> <!-- End .share -->
 
 </div> <!-- End ringtone-content -->

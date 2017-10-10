@@ -88,7 +88,7 @@ strong, b {
   font-weight: bold; }
 
 b.highlight {
-  color: #F96577;
+  color: #FFF;
   text-transform: uppercase; }
 
 hr {
@@ -419,7 +419,7 @@ strong, b {
   font-weight: bold; }
 
 b.highlight {
-  color: #FD990E;
+  color: #FFF;
   text-transform: uppercase; }
 
 hr {
@@ -2199,7 +2199,7 @@ a.hero-cat:hover {
       color: #585858; }
       .ringtone-content .share-buttons a:hover {
         color: #FD990E; }
-    .ringtone-content .share-buttons a.facebook, .ringtone-content .share-buttons a.twitter {
+    .ringtone-content .share-buttons a.facebook {
       margin-right: 2rem; }
 
 @media (max-width: 768px) {
