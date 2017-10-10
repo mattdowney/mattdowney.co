@@ -905,7 +905,8 @@ header {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  margin-bottom: 4rem; }
   header .logo {
     width: 90px;
     height: 80px; }
