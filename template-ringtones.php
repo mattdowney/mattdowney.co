@@ -29,9 +29,9 @@
 	</div> <!-- End .cta-buttons -->
 
 	<div class="share-buttons">
-		<a href="http://www.facebook.com/sharer/sharer.php?u=http://mattdowney.co/iphone-ringtones/" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		<!--<a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fmattdowney.co%2Fiphone-ringtones%2F%[title]=iPhone+Ringtones" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 		
-		<a href="https://twitter.com/intent/tweet?url=<?php echo htmlspecialchars(urlencode(html_entity_decode('http://mcd.uno/2yc1aRf', ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8'); ?>&amp;text=These hand-crafted iPhone ringtones and alerts by @mattdowney are distinct, polished, and one of a kind." target="_blank" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/intent/tweet?url=<?php echo htmlspecialchars(urlencode(html_entity_decode('http://mcd.uno/2yc1aRf', ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8'); ?>&amp;text=These hand-crafted iPhone ringtones and alerts by @mattdowney are distinct, polished, and one of a kind." target="_blank" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>-->
 	</div> <!-- End .share -->
 
 </div> <!-- End ringtone-content -->
