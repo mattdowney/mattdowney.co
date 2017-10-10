@@ -23,7 +23,7 @@
 		</div> <!-- End .preview -->
 
 		<div class="buy-now">
-			<a class="no-animation" href="http://mcd.uno/2y8IdNE" download>Download ringtones</a>
+			<a class="no-animation" href="https://cl.ly/mzYa/download/ringtones-fall.zip" download>Download ringtones</a>
 			<?php //echo do_shortcode('[sell_media_file item_name="protones-20pack.zip" name="ProTones" description="20 iPhone Ringtones & Alerts" amount="1.99" label="Buy for $1.99" download_link="http://protones.co/wp-content/files/protones-fall-2016.zip"]'); ?>
 		</div> <!-- End .buy-now -->
 	</div> <!-- End .cta-buttons -->
