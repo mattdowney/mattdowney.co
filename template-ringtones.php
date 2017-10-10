@@ -15,7 +15,7 @@
 	</div> <!-- End .note -->
 
 	<h1>Premium iPhone Ringtones</h1>
-	<p>Having the same ringtone as everyone else is boring. So I made these to help stand out from the crowd. This limited edition set of 20 handcrafted sounds is available for <b class="highlight">free</b> through <?php echo date('F'); ?></span>!</p>
+	<p>Having the same ringtones and alerts as everyone else is boring — so I made these to help you stand out from the crowd. This handcrafted set of 20 sounds is available for <b class="highlight">free</b> through <?php echo date('F'); ?></span>!</p>
 
 	<div class="cta-buttons">
 		<div class="preview">

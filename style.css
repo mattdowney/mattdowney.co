@@ -600,6 +600,11 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #585858; }
 
+ul.navigation-menu a {
+  color: #FD990E !important; }
+  ul.navigation-menu a:hover {
+    color: #A78EB8 !important; }
+
 .newsletter {
   margin-top: 60px;
   padding: 30px 40px 36px 40px;

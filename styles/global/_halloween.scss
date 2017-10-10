@@ -1,3 +1,13 @@
+ul.navigation-menu {
+  a {
+    color: $link-color !important;
+
+    &:hover {
+      color: $underline-color !important;
+    }
+  }
+}
+
 .newsletter {
 	margin-top: 60px;
 	padding: 30px 40px 36px 40px;
