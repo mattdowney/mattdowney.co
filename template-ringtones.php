@@ -29,9 +29,12 @@
 	</div> <!-- End .cta-buttons -->
 
 	<div class="share-buttons">
-		<!--<a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fmattdowney.co%2Fiphone-ringtones%2F%[title]=iPhone+Ringtones" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmattdowney.co%2Fiphone-ringtones%2F" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 		
-		<a href="https://twitter.com/intent/tweet?url=<?php echo htmlspecialchars(urlencode(html_entity_decode('http://mcd.uno/2yc1aRf', ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8'); ?>&amp;text=These hand-crafted iPhone ringtones and alerts by @mattdowney are distinct, polished, and one of a kind." target="_blank" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>-->
+		<a href="https://twitter.com/intent/tweet?url=<?php echo htmlspecialchars(urlencode(html_entity_decode('http://mcd.uno/2yc1aRf', ENT_COMPAT, 'UTF-8')), ENT_COMPAT, 'UTF-8'); ?>&amp;text=These hand-crafted iPhone ringtones and alerts by @mattdowney are distinct, polished, and one of a kind." target="_blank" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+		<a href="https://pinterest.com/pin/create/button/?url=http%3A//mattdowney.co/iphone-ringtones/&media=http%3A//mattdowney.co/wp-content/themes/mattdowney.co/images/sharer.jpg&description=Having%20the%20same%20ringtone%20as%20everyone%20else%20is%20boring.%20So%20I%20made%20these%20to%20help%20stand%20out%20from%20the%20crowd.%20This%20limited%20edition%20set%20of%2020%20handcrafted%20sounds%20is%20available%20for%20FREE!" count-layout="horizontal" target="_blank" class="pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i>
+</i></a>
 	</div> <!-- End .share -->
 
 </div> <!-- End ringtone-content -->
