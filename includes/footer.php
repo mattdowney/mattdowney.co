@@ -3,8 +3,8 @@
 <div class="footer">
 
 	<div class="footer-col footer-about">
-		<h3 class="section-title">About</h3>
-		<p>I'm Matt Downey, a designer specializing in websites, applications, and products. <a href="<?php bloginfo('wpurl'); ?>/about/">Read more &#10142;</a></p>
+		<h3 class="section-title">About Matt</h3>
+		<p>I'm a Creative Director working on applications, mobile, and web. I'm also the founder of <a href="http://45royale.com/">45royale</a>, a remote design studio with home base in Atlanta, GA. <a href="<?php bloginfo('wpurl'); ?>/about/">More &#10142;</a></p>
 	</div> <!-- End footer-about -->
 
 		<div class="footer-col footer-navigate">

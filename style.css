@@ -11,8 +11,7 @@ Version: 1.0
 /* Yellow */
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500");
 @import url("https://fonts.googleapis.com/css?family=Alegreya:400,400i");
-@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro");
-@import url("https://fonts.googleapis.com/css?family=Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Vollkorn");
 .clearfix:after {
   content: " ";
   display: block;
@@ -48,7 +47,7 @@ Version: 1.0
 
 p {
   margin: 0 0 20px 0;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Vollkorn', serif;
   font-size: 1.2rem;
   line-height: 1.8rem;
   margin-bottom: 2.5rem; }
@@ -344,7 +343,7 @@ body {
 
 p {
   margin: 0 0 20px 0;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Vollkorn', serif;
   font-size: 1.2rem;
   line-height: 1.8rem;
   margin-bottom: 2.5rem; }
@@ -872,7 +871,6 @@ table {
 td, th {
   padding: 0; }
 
-/*@import url('https://fonts.googleapis.com/css?family=Gentium+Basic');*/
 @font-face {
   font-family: 'Icons';
   src: url("./fonts/Icons.eot");
