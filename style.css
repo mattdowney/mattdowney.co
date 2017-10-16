@@ -1564,6 +1564,7 @@ a.hero-cat:hover {
   margin-right: 12px;
   padding: 12px 20px 10px 20px;
   border: none;
+  letter-spacing: 1rem;
   color: #D5D5D5; }
 
 .navigation .nav-links a {
