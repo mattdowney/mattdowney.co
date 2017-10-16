@@ -1519,25 +1519,18 @@ a.hero-cat:hover {
   display: block; }
 
 .blog-pagination {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;*/
   margin: 40px 0 110px 0;
   padding: 0;
   height: 100%;
-  position: relative; }
+  text-align: center; }
 
 .navigation {
   margin: 0;
   padding: 0;
-  height: 100%;
-  position: absolute;
-  right: 0; }
+  height: 100%; }
 
 .navigation h2 {
   display: none; }

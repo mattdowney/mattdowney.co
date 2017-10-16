@@ -124,21 +124,21 @@
 // Pagination styles
 
 .blog-pagination {
-	display: flex;
+	/*display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-between;*/
 	margin: 40px 0 110px 0;
 	padding: 0;
 	height: 100%;
-	position: relative;
+	text-align: center;
 }
 
 .navigation {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	position: absolute;
-	right: 0;
+	//position: absolute;
+	//right: 0;
 }
 
 .navigation h2 {
