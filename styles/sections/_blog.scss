@@ -158,7 +158,7 @@
   	letter-spacing: 0.05em;
 }
 
-.navigation .nav-links span {
+.navigation .nav-links span.current {
 	margin-right: 12px;
 	padding: 12px 20px 10px 20px;
 	border: 2px solid $link-color;
