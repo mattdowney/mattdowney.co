@@ -22,7 +22,7 @@
 			</div> <!-- End hero-title -->
 
 			<div class="hero-post">
-				<?php $heroPost = new WP_Query('cat=1&posts_per_page=1');
+				<?php $heroPost = new WP_Query('posts_per_page=1');
 					if ($heroPost->have_posts()) :
 					while ($heroPost->have_posts()) : $heroPost->the_post(); ?>
 
