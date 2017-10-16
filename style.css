@@ -1560,6 +1560,12 @@ a.hero-cat:hover {
   border: 2px solid #FD990E;
   color: #D5D5D5; }
 
+.navigation .nav-links span.dots {
+  margin-right: 12px;
+  padding: 12px 20px 10px 20px;
+  border: none;
+  color: #D5D5D5; }
+
 .navigation .nav-links a {
   margin-right: 12px;
   padding: 12px 20px 10px 20px;
