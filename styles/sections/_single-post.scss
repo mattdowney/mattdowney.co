@@ -40,7 +40,7 @@
 	text-align: center;
 	font-weight: 300;
 	line-height: 1.25;
-	color: $text;
+	color: $white;
 
 	span {
 		margin: 0;
@@ -91,6 +91,14 @@
 	max-width: 784px; /* Accounts for padding */
 	font-size: 19px;
 	line-height: 35px;
+
+	span.EnlighterJS {
+		padding: 0.65rem 1rem 0.5rem 1rem;
+	}
+
+	.wpcustomEnlighterJS li {
+		padding-top: 0.35rem;
+	}
 }
 
 @media (max-width: 435px) {
@@ -100,18 +108,14 @@
 }
 
 .post-content h2 {
-	font-size: 28px;
-	font-weight: 400;
-	color: $text;
-}
-
-.post-content p {
-	font-size: 1.1em;
-	line-height: 1.75;
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+	font-weight: 300;
+	color: $white;
 }
 
 .post-content p a {
-	font-size: 0.9em;
+	font-size: 1.025em;
 }
 
 .post-content blockquote p {

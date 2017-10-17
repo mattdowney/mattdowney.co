@@ -44,18 +44,34 @@
 
 p {
   margin: 0 0 20px 0;
-  font-family: 'Vollkorn', serif;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.15rem;
+  line-height: 2rem;
   margin-bottom: 2.5rem;
 }
 
 p a {
-   font-family: 'Rubik', sans-serif;
-    font-size: inherit;
+  // padding: 0 0.5rem;
+  // transition: background-position 0.2s linear 0.15s, box-shadow 0.15s linear 0s;
+    transition: background-position 0s linear 0s, box-shadow 0s linear 0s;
+    background-image: linear-gradient(to right, $link-color 0%, $underline-color 100%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 1.5rem;
+    color: $link-color;
+    overflow: hidden;
+    &:hover {
+      cursor: pointer;
+      background-image: linear-gradient(to right, $link-color 0%, $underline-color 100%);
+      background-position: 0 1rem;
+      box-shadow: 0rem 0 0 $underline-color, 0rem 0 0 $underline-color;
+      // transition: background-position 0.2s linear 0s, box-shadow 0.1s linear 0.15s;
+      transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s;
+      color: $white;
+    }
 }
 
-p a,.greeting a,.blog-greeting a,.greeting-centered a, .footer ul a, ul.navigation-menu a {
+.greeting a,.blog-greeting a,.greeting-centered a, .footer ul a, ul.navigation-menu a {
   color: $link-color;
   font-family: 'Rubik', sans-serif;
   position: relative;

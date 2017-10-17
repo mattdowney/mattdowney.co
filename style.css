@@ -11,7 +11,7 @@ Version: 1.0
 /* Yellow */
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500");
 @import url("https://fonts.googleapis.com/css?family=Alegreya:400,400i");
-@import url("https://fonts.googleapis.com/css?family=Vollkorn");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif");
 .clearfix:after {
   content: " ";
   display: block;
@@ -47,21 +47,42 @@ Version: 1.0
 
 p {
   margin: 0 0 20px 0;
-  font-family: 'Vollkorn', serif;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.15rem;
+  line-height: 2rem;
   margin-bottom: 2.5rem; }
 
 p a {
-  font-family: 'Rubik', sans-serif;
-  font-size: inherit; }
+  -webkit-transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
+  transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
+  transition: background-position 0s linear 0s, box-shadow 0s linear 0s;
+  transition: background-position 0s linear 0s, box-shadow 0s linear 0s, -webkit-box-shadow 0s linear 0s;
+  background-image: -webkit-gradient(linear, left top, right top, from(#F96577), to(#46E1E2));
+  background-image: linear-gradient(to right, #F96577 0%, #46E1E2 100%);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 1.5rem;
+  color: #F96577;
+  overflow: hidden; }
+  p a:hover {
+    cursor: pointer;
+    background-image: -webkit-gradient(linear, left top, right top, from(#F96577), to(#46E1E2));
+    background-image: linear-gradient(to right, #F96577 0%, #46E1E2 100%);
+    background-position: 0 1rem;
+    -webkit-box-shadow: 0rem 0 0 #46E1E2, 0rem 0 0 #46E1E2;
+            box-shadow: 0rem 0 0 #46E1E2, 0rem 0 0 #46E1E2;
+    -webkit-transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
+    transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
+    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s;
+    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s, -webkit-box-shadow 0.1s linear 0.1s;
+    color: #FFF; }
 
-p a, .greeting a, .blog-greeting a, .greeting-centered a, .footer ul a, ul.navigation-menu a {
+.greeting a, .blog-greeting a, .greeting-centered a, .footer ul a, ul.navigation-menu a {
   color: #F96577;
   font-family: 'Rubik', sans-serif;
   position: relative;
   padding-bottom: 0px; }
-  p a:after, .greeting a:after, .blog-greeting a:after, .greeting-centered a:after, .footer ul a:after, ul.navigation-menu a:after {
+  .greeting a:after, .blog-greeting a:after, .greeting-centered a:after, .footer ul a:after, ul.navigation-menu a:after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -73,11 +94,11 @@ p a, .greeting a, .blog-greeting a, .greeting-centered a, .footer ul a, ul.navig
     -webkit-transition: width .1s ease-in-out;
     transition: width .1s ease-in-out;
     z-index: 1; }
-  p a:hover, .greeting a:hover, .blog-greeting a:hover, .greeting-centered a:hover, .footer ul a:hover, ul.navigation-menu a:hover {
+  .greeting a:hover, .blog-greeting a:hover, .greeting-centered a:hover, .footer ul a:hover, ul.navigation-menu a:hover {
     color: #46E1E2;
     -webkit-transition: 0.15s ease;
     transition: 0.15s ease; }
-    p a:hover:after, .greeting a:hover:after, .blog-greeting a:hover:after, .greeting-centered a:hover:after, .footer ul a:hover:after, ul.navigation-menu a:hover:after {
+    .greeting a:hover:after, .blog-greeting a:hover:after, .greeting-centered a:hover:after, .footer ul a:hover:after, ul.navigation-menu a:hover:after {
       width: 100%; }
 
 em {
@@ -343,21 +364,42 @@ body {
 
 p {
   margin: 0 0 20px 0;
-  font-family: 'Vollkorn', serif;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.15rem;
+  line-height: 2rem;
   margin-bottom: 2.5rem; }
 
 p a {
-  font-family: 'Rubik', sans-serif;
-  font-size: inherit; }
+  -webkit-transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
+  transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
+  transition: background-position 0s linear 0s, box-shadow 0s linear 0s;
+  transition: background-position 0s linear 0s, box-shadow 0s linear 0s, -webkit-box-shadow 0s linear 0s;
+  background-image: -webkit-gradient(linear, left top, right top, from(#FD990E), to(#A78EB8));
+  background-image: linear-gradient(to right, #FD990E 0%, #A78EB8 100%);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 1.5rem;
+  color: #FD990E;
+  overflow: hidden; }
+  p a:hover {
+    cursor: pointer;
+    background-image: -webkit-gradient(linear, left top, right top, from(#FD990E), to(#A78EB8));
+    background-image: linear-gradient(to right, #FD990E 0%, #A78EB8 100%);
+    background-position: 0 1rem;
+    -webkit-box-shadow: 0rem 0 0 #A78EB8, 0rem 0 0 #A78EB8;
+            box-shadow: 0rem 0 0 #A78EB8, 0rem 0 0 #A78EB8;
+    -webkit-transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
+    transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
+    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s;
+    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s, -webkit-box-shadow 0.1s linear 0.1s;
+    color: #FFF; }
 
-p a, .greeting a, .blog-greeting a, .greeting-centered a, .footer ul a, ul.navigation-menu a {
+.greeting a, .blog-greeting a, .greeting-centered a, .footer ul a, ul.navigation-menu a {
   color: #FD990E;
   font-family: 'Rubik', sans-serif;
   position: relative;
   padding-bottom: 0px; }
-  p a:after, .greeting a:after, .blog-greeting a:after, .greeting-centered a:after, .footer ul a:after, ul.navigation-menu a:after {
+  .greeting a:after, .blog-greeting a:after, .greeting-centered a:after, .footer ul a:after, ul.navigation-menu a:after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -369,11 +411,11 @@ p a, .greeting a, .blog-greeting a, .greeting-centered a, .footer ul a, ul.navig
     -webkit-transition: width .1s ease-in-out;
     transition: width .1s ease-in-out;
     z-index: 1; }
-  p a:hover, .greeting a:hover, .blog-greeting a:hover, .greeting-centered a:hover, .footer ul a:hover, ul.navigation-menu a:hover {
+  .greeting a:hover, .blog-greeting a:hover, .greeting-centered a:hover, .footer ul a:hover, ul.navigation-menu a:hover {
     color: #A78EB8;
     -webkit-transition: 0.15s ease;
     transition: 0.15s ease; }
-    p a:hover:after, .greeting a:hover:after, .blog-greeting a:hover:after, .greeting-centered a:hover:after, .footer ul a:hover:after, ul.navigation-menu a:hover:after {
+    .greeting a:hover:after, .blog-greeting a:hover:after, .greeting-centered a:hover:after, .footer ul a:hover:after, ul.navigation-menu a:hover:after {
       width: 100%; }
 
 em {
@@ -1899,7 +1941,7 @@ a.hero-cat:hover {
   text-align: center;
   font-weight: 300;
   line-height: 1.25;
-  color: #D5D5D5; }
+  color: #FFF; }
   .post-title span {
     margin: 0;
     padding: 0; }
@@ -1939,21 +1981,22 @@ a.hero-cat:hover {
   /* Accounts for padding */
   font-size: 19px;
   line-height: 35px; }
+  .post-content span.EnlighterJS {
+    padding: 0.65rem 1rem 0.5rem 1rem; }
+  .post-content .wpcustomEnlighterJS li {
+    padding-top: 0.35rem; }
 
 @media (max-width: 435px) {
   .post-content {
     padding: 0; } }
 .post-content h2 {
-  font-size: 28px;
-  font-weight: 400;
-  color: #D5D5D5; }
-
-.post-content p {
-  font-size: 1.1em;
-  line-height: 1.75; }
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: 300;
+  color: #FFF; }
 
 .post-content p a {
-  font-size: 0.9em; }
+  font-size: 1.025em; }
 
 .post-content blockquote p {
   float: right;
