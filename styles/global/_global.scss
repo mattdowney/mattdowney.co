@@ -51,24 +51,23 @@ p {
 }
 
 p a {
-  // padding: 0 0.5rem;
-  // transition: background-position 0.2s linear 0.15s, box-shadow 0.15s linear 0s;
-    transition: background-position 0s linear 0s, box-shadow 0s linear 0s;
+  font-family: 'Rubik', sans-serif;
+  transition: background-position 0s linear 0s, box-shadow 0s linear 0s;
+  background-image: linear-gradient(to right, $link-color 0%, $underline-color 100%);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 1.5rem;
+  color: $link-color;
+  overflow: hidden;
+
+  &:hover {
+    cursor: pointer;
     background-image: linear-gradient(to right, $link-color 0%, $underline-color 100%);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: 0 1.5rem;
-    color: $link-color;
-    overflow: hidden;
-    &:hover {
-      cursor: pointer;
-      background-image: linear-gradient(to right, $link-color 0%, $underline-color 100%);
-      background-position: 0 1rem;
-      box-shadow: 0rem 0 0 $underline-color, 0rem 0 0 $underline-color;
-      // transition: background-position 0.2s linear 0s, box-shadow 0.1s linear 0.15s;
-      transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s;
-      color: $white;
-    }
+    background-position: 0 1rem;
+    box-shadow: 0rem 0 0 $underline-color, 0rem 0 0 $underline-color;
+    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s;
+    color: $white;
+  }
 }
 
 .greeting a,.blog-greeting a,.greeting-centered a, .footer ul a, ul.navigation-menu a {

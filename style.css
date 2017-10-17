@@ -53,6 +53,7 @@ p {
   margin-bottom: 2.5rem; }
 
 p a {
+  font-family: 'Rubik', sans-serif;
   -webkit-transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
   transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
   transition: background-position 0s linear 0s, box-shadow 0s linear 0s;
@@ -370,6 +371,7 @@ p {
   margin-bottom: 2.5rem; }
 
 p a {
+  font-family: 'Rubik', sans-serif;
   -webkit-transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
   transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
   transition: background-position 0s linear 0s, box-shadow 0s linear 0s;
