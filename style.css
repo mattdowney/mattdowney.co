@@ -52,59 +52,11 @@ p {
   line-height: 2rem;
   margin-bottom: 2.5rem; }
 
-p a {
-  -webkit-transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
-  transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
-  transition: background-position 0s linear 0s, box-shadow 0s linear 0s;
-  transition: background-position 0s linear 0s, box-shadow 0s linear 0s, -webkit-box-shadow 0s linear 0s;
-  background-image: -webkit-gradient(linear, left top, right top, from(#F96577), to(#46E1E2));
-  background-image: linear-gradient(to right, #F96577 0%, #46E1E2 100%);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 0 1.5rem;
-  color: #F96577;
-  overflow: hidden; }
-  p a:hover {
-    cursor: pointer;
-    background-image: -webkit-gradient(linear, left top, right top, from(#F96577), to(#46E1E2));
-    background-image: linear-gradient(to right, #F96577 0%, #46E1E2 100%);
-    background-position: 0 1rem;
-    -webkit-box-shadow: 0rem 0 0 #46E1E2, 0rem 0 0 #46E1E2;
-            box-shadow: 0rem 0 0 #46E1E2, 0rem 0 0 #46E1E2;
-    -webkit-transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
-    transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
-    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s;
-    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s, -webkit-box-shadow 0.1s linear 0.1s;
-    color: #FFF; }
-
 .greeting a, .blog-greeting a, .greeting-centered a, .footer ul a, ul.navigation-menu a {
   color: #F96577;
   font-family: 'Rubik', sans-serif;
   position: relative;
-  padding-bottom: 0px;
-  -webkit-transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
-  transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
-  transition: background-position 0s linear 0s, box-shadow 0s linear 0s;
-  transition: background-position 0s linear 0s, box-shadow 0s linear 0s, -webkit-box-shadow 0s linear 0s;
-  background-image: -webkit-gradient(linear, left top, right top, from(#F96577), to(#46E1E2));
-  background-image: linear-gradient(to right, #F96577 0%, #46E1E2 100%);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 0 1.5rem;
-  color: #F96577;
-  overflow: hidden; }
-  .greeting a:hover, .blog-greeting a:hover, .greeting-centered a:hover, .footer ul a:hover, ul.navigation-menu a:hover {
-    cursor: pointer;
-    background-image: -webkit-gradient(linear, left top, right top, from(#F96577), to(#46E1E2));
-    background-image: linear-gradient(to right, #F96577 0%, #46E1E2 100%);
-    background-position: 0 1rem;
-    -webkit-box-shadow: 0rem 0 0 #46E1E2, 0rem 0 0 #46E1E2;
-            box-shadow: 0rem 0 0 #46E1E2, 0rem 0 0 #46E1E2;
-    -webkit-transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
-    transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
-    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s;
-    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s, -webkit-box-shadow 0.1s linear 0.1s;
-    color: #FFF; }
+  padding-bottom: 0px; }
   .greeting a:after, .blog-greeting a:after, .greeting-centered a:after, .footer ul a:after, ul.navigation-menu a:after {
     content: '';
     position: absolute;
@@ -392,59 +344,11 @@ p {
   line-height: 2rem;
   margin-bottom: 2.5rem; }
 
-p a {
-  -webkit-transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
-  transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
-  transition: background-position 0s linear 0s, box-shadow 0s linear 0s;
-  transition: background-position 0s linear 0s, box-shadow 0s linear 0s, -webkit-box-shadow 0s linear 0s;
-  background-image: -webkit-gradient(linear, left top, right top, from(#FD990E), to(#A78EB8));
-  background-image: linear-gradient(to right, #FD990E 0%, #A78EB8 100%);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 0 1.5rem;
-  color: #FD990E;
-  overflow: hidden; }
-  p a:hover {
-    cursor: pointer;
-    background-image: -webkit-gradient(linear, left top, right top, from(#FD990E), to(#A78EB8));
-    background-image: linear-gradient(to right, #FD990E 0%, #A78EB8 100%);
-    background-position: 0 1rem;
-    -webkit-box-shadow: 0rem 0 0 #A78EB8, 0rem 0 0 #A78EB8;
-            box-shadow: 0rem 0 0 #A78EB8, 0rem 0 0 #A78EB8;
-    -webkit-transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
-    transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
-    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s;
-    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s, -webkit-box-shadow 0.1s linear 0.1s;
-    color: #FFF; }
-
 .greeting a, .blog-greeting a, .greeting-centered a, .footer ul a, ul.navigation-menu a {
   color: #FD990E;
   font-family: 'Rubik', sans-serif;
   position: relative;
-  padding-bottom: 0px;
-  -webkit-transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
-  transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
-  transition: background-position 0s linear 0s, box-shadow 0s linear 0s;
-  transition: background-position 0s linear 0s, box-shadow 0s linear 0s, -webkit-box-shadow 0s linear 0s;
-  background-image: -webkit-gradient(linear, left top, right top, from(#FD990E), to(#A78EB8));
-  background-image: linear-gradient(to right, #FD990E 0%, #A78EB8 100%);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 0 1.5rem;
-  color: #FD990E;
-  overflow: hidden; }
-  .greeting a:hover, .blog-greeting a:hover, .greeting-centered a:hover, .footer ul a:hover, ul.navigation-menu a:hover {
-    cursor: pointer;
-    background-image: -webkit-gradient(linear, left top, right top, from(#FD990E), to(#A78EB8));
-    background-image: linear-gradient(to right, #FD990E 0%, #A78EB8 100%);
-    background-position: 0 1rem;
-    -webkit-box-shadow: 0rem 0 0 #A78EB8, 0rem 0 0 #A78EB8;
-            box-shadow: 0rem 0 0 #A78EB8, 0rem 0 0 #A78EB8;
-    -webkit-transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
-    transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
-    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s;
-    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s, -webkit-box-shadow 0.1s linear 0.1s;
-    color: #FFF; }
+  padding-bottom: 0px; }
   .greeting a:after, .blog-greeting a:after, .greeting-centered a:after, .footer ul a:after, ul.navigation-menu a:after {
     content: '';
     position: absolute;
@@ -2042,7 +1946,29 @@ a.hero-cat:hover {
   color: #FFF; }
 
 .post-content p a {
-  font-size: 1.025em; }
+  -webkit-transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
+  transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
+  transition: background-position 0s linear 0s, box-shadow 0s linear 0s;
+  transition: background-position 0s linear 0s, box-shadow 0s linear 0s, -webkit-box-shadow 0s linear 0s;
+  background-image: -webkit-gradient(linear, left top, right top, from(#FD990E), to(#A78EB8));
+  background-image: linear-gradient(to right, #FD990E 0%, #A78EB8 100%);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 1.5rem;
+  color: #FD990E;
+  overflow: hidden; }
+  .post-content p a:hover {
+    cursor: pointer;
+    background-image: -webkit-gradient(linear, left top, right top, from(#FD990E), to(#A78EB8));
+    background-image: linear-gradient(to right, #FD990E 0%, #A78EB8 100%);
+    background-position: 0 1rem;
+    -webkit-box-shadow: 0rem 0 0 #A78EB8, 0rem 0 0 #A78EB8;
+            box-shadow: 0rem 0 0 #A78EB8, 0rem 0 0 #A78EB8;
+    -webkit-transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
+    transition: background-position 0.1s linear 0s, -webkit-box-shadow 0.1s linear 0.1s;
+    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s;
+    transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s, -webkit-box-shadow 0.1s linear 0.1s;
+    color: #FFF; }
 
 .post-content blockquote p {
   float: right;
