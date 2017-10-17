@@ -1920,12 +1920,14 @@ a.hero-cat:hover {
   height: auto; }
 
 .image-credit {
-  margin: 0 0 2rem 0;
+  margin: 0 0 4rem 0;
   text-align: center;
   font-size: 1.25em;
   line-height: 1.45rem;
   font-family: 'Alegreya', serif;
-  color: #A8AAC3; }
+  color: #C5C5C5; }
+  .image-credit a {
+    font-family: 'Alegreya', serif !important; }
 
 .post-content {
   padding: 0 48px;
@@ -1937,6 +1939,8 @@ a.hero-cat:hover {
     padding: 0.65rem 1rem 0.5rem 1rem; }
   .post-content .wpcustomEnlighterJS li {
     padding-top: 0.35rem; }
+  .post-content p a {
+    font-size: 1.2rem; }
 
 @media (max-width: 435px) {
   .post-content {
@@ -1950,8 +1954,8 @@ a.hero-cat:hover {
 .post-content blockquote p {
   float: right;
   width: 40%;
-  margin: 7px 0 40px 40px;
-  padding: 40px 30px 25px 30px;
+  margin: 0.45rem 0 2.5rem 2.5rem;
+  padding: 2.5rem 1.75rem 1.5rem 2.5rem;
   font-family: 'Alegreya', sans-serif;
   font-weight: lighter;
   font-style: italic;
@@ -1959,7 +1963,6 @@ a.hero-cat:hover {
   font-size: 1.7em;
   line-height: 1.3;
   border-left: 5px solid #A78EB8;
-  background: url(images/bg-blockquote@2x.gif) no-repeat top left;
   background-size: 35px 5px; }
 
 @media (max-width: 800px) {
