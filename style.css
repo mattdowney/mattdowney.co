@@ -52,7 +52,7 @@ p {
   line-height: 2rem;
   margin-bottom: 2.5rem; }
 
-p a {
+p a, .greeting a, .blog-greeting a, .greeting-centered a, .footer ul a, ul.navigation-menu a {
   font-family: 'Rubik', sans-serif;
   -webkit-transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
   transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
@@ -65,7 +65,7 @@ p a {
   background-position: 0 1.5rem;
   color: #F96577;
   overflow: hidden; }
-  p a:hover {
+  p a:hover, .greeting a:hover, .blog-greeting a:hover, .greeting-centered a:hover, .footer ul a:hover, ul.navigation-menu a:hover {
     cursor: pointer;
     background-image: -webkit-gradient(linear, left top, right top, from(#F96577), to(#46E1E2));
     background-image: linear-gradient(to right, #F96577 0%, #46E1E2 100%);
@@ -78,30 +78,33 @@ p a {
     transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s, -webkit-box-shadow 0.1s linear 0.1s;
     color: #FFF; }
 
-.greeting a, .blog-greeting a, .greeting-centered a, .footer ul a, ul.navigation-menu a {
-  color: #F96577;
+/*p a, .greeting a,.blog-greeting a,.greeting-centered a, .footer ul a, ul.navigation-menu a {
+  color: $link-color;
   font-family: 'Rubik', sans-serif;
   position: relative;
-  padding-bottom: 0px; }
-  .greeting a:after, .blog-greeting a:after, .greeting-centered a:after, .footer ul a:after, ul.navigation-menu a:after {
+  padding-bottom: 0px;
+  
+  &:after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     height: 2px;
-    background-color: #46E1E2;
+    background-color: $underline-color;
     width: 0%;
     display: block;
-    -webkit-transition: width .1s ease-in-out;
     transition: width .1s ease-in-out;
-    z-index: 1; }
-  .greeting a:hover, .blog-greeting a:hover, .greeting-centered a:hover, .footer ul a:hover, ul.navigation-menu a:hover {
-    color: #46E1E2;
-    -webkit-transition: 0.15s ease;
-    transition: 0.15s ease; }
-    .greeting a:hover:after, .blog-greeting a:hover:after, .greeting-centered a:hover:after, .footer ul a:hover:after, ul.navigation-menu a:hover:after {
-      width: 100%; }
-
+    z-index: 1;
+  }
+  
+  &:hover {
+    color: $hover-color;
+    transition: 0.15s ease;
+    &:after {
+      width: 100%;
+    }
+  }
+}*/
 em {
   font-style: italic; }
 
@@ -370,7 +373,7 @@ p {
   line-height: 2rem;
   margin-bottom: 2.5rem; }
 
-p a {
+p a, .greeting a, .blog-greeting a, .greeting-centered a, .footer ul a, ul.navigation-menu a {
   font-family: 'Rubik', sans-serif;
   -webkit-transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
   transition: background-position 0s linear 0s, -webkit-box-shadow 0s linear 0s;
@@ -383,7 +386,7 @@ p a {
   background-position: 0 1.5rem;
   color: #FD990E;
   overflow: hidden; }
-  p a:hover {
+  p a:hover, .greeting a:hover, .blog-greeting a:hover, .greeting-centered a:hover, .footer ul a:hover, ul.navigation-menu a:hover {
     cursor: pointer;
     background-image: -webkit-gradient(linear, left top, right top, from(#FD990E), to(#A78EB8));
     background-image: linear-gradient(to right, #FD990E 0%, #A78EB8 100%);
@@ -396,30 +399,33 @@ p a {
     transition: background-position 0.1s linear 0s, box-shadow 0.1s linear 0.1s, -webkit-box-shadow 0.1s linear 0.1s;
     color: #FFF; }
 
-.greeting a, .blog-greeting a, .greeting-centered a, .footer ul a, ul.navigation-menu a {
-  color: #FD990E;
+/*p a, .greeting a,.blog-greeting a,.greeting-centered a, .footer ul a, ul.navigation-menu a {
+  color: $link-color;
   font-family: 'Rubik', sans-serif;
   position: relative;
-  padding-bottom: 0px; }
-  .greeting a:after, .blog-greeting a:after, .greeting-centered a:after, .footer ul a:after, ul.navigation-menu a:after {
+  padding-bottom: 0px;
+  
+  &:after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     height: 2px;
-    background-color: #A78EB8;
+    background-color: $underline-color;
     width: 0%;
     display: block;
-    -webkit-transition: width .1s ease-in-out;
     transition: width .1s ease-in-out;
-    z-index: 1; }
-  .greeting a:hover, .blog-greeting a:hover, .greeting-centered a:hover, .footer ul a:hover, ul.navigation-menu a:hover {
-    color: #A78EB8;
-    -webkit-transition: 0.15s ease;
-    transition: 0.15s ease; }
-    .greeting a:hover:after, .blog-greeting a:hover:after, .greeting-centered a:hover:after, .footer ul a:hover:after, ul.navigation-menu a:hover:after {
-      width: 100%; }
-
+    z-index: 1;
+  }
+  
+  &:hover {
+    color: $hover-color;
+    transition: 0.15s ease;
+    &:after {
+      width: 100%;
+    }
+  }
+}*/
 em {
   font-style: italic; }
 
