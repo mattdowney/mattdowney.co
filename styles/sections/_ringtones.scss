@@ -70,11 +70,13 @@
 				background-repeat: no-repeat;
 			    background-position: 50% 50%; 
 			    border: none;
+			    border-radius:0;
 
 				&:focus, &:hover {
 					border: none;
 					outline: none;
 					background-color: $underline-color;
+					border-radius: 0;
 				}
 			}
 

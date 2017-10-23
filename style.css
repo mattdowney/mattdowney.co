@@ -2111,11 +2111,13 @@ a.hero-cat:hover {
       background-color: #585858;
       background-repeat: no-repeat;
       background-position: 50% 50%;
-      border: none; }
+      border: none;
+      border-radius: 0; }
       .ringtone-content .preview .sc_player_container1 input.myButton_play:focus, .ringtone-content .preview .sc_player_container1 input.myButton_play:hover {
         border: none;
         outline: none;
-        background-color: #A78EB8; }
+        background-color: #A78EB8;
+        border-radius: 0; }
     .ringtone-content .preview .sc_player_container1 input.myButton_stop {
       padding: 1rem 1.5rem;
       background-image: url(images/img-stop-button@2x.png);
