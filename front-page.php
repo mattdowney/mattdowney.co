@@ -7,8 +7,8 @@
 			<h1 class="greeting">
 				<span>
 				<?php
-				// $input = array("Hey!", "Hello!", "Hola!", "Howdy!", "Bonjour!", "Guten Tag!", "Namaste!", "Ciao!", "Konnichiwa!", "Ni Hau!");
-				$input = array("Happy Halloween!", "I believe in the Great Pumpkin.", "I ain't afraid of no ghost!", "Eat, Drink, And Be Scary!");
+				 $input = array("Hey!", "Hello!", "Hola!", "Howdy!", "Bonjour!", "Guten Tag!", "Namaste!", "Ciao!", "Konnichiwa!", "Ni Hau!");
+				//$input = array("Happy Halloween!", "I believe in the Great Pumpkin.", "I ain't afraid of no ghost!", "Eat, Drink, And Be Scary!");
 				$rand_keys = array_rand($input, 2);
 				echo $input[$rand_keys[0]] . "\n";
 				?>
@@ -79,7 +79,7 @@
 
 			</div> <!-- End article-container -->
 
-			<?php get_template_part('includes/newsletter-halloween'); ?>
+			<?php get_template_part('includes/newsletter'); ?>
 
 			<?php get_template_part('includes/footer'); ?>
 
