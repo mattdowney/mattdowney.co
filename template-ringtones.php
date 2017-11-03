@@ -9,7 +9,7 @@
 	<div class="note">
 		<div class="mask">
 			<div class="gradient">
-				<img src="<?php bloginfo('template_url'); ?>/images/img-note-mask.png" alt="Ringtones" />
+				<img src="<?php bloginfo('template_url'); ?>/images/img-note-mask-light.png" alt="Ringtones" />
 			</div>
 		</div> <!-- End. mask -->
 	</div> <!-- End .note -->

@@ -122,17 +122,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/bg-dots.png": {
-		"ft": 32768,
-		"iS": 9015,
-		"oA": 0,
-		"oAP": "\/images\/bg-dots.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/bg-matt.jpg": {
 		"ft": 16384,
 		"iS": 112965,
@@ -724,6 +713,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/img-note-mask-light.png": {
+		"ft": 32768,
+		"iS": 10652,
+		"oA": 0,
+		"oAP": "\/images\/img-note-mask-light.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/img-note-mask.png": {

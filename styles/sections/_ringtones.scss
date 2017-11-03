@@ -66,7 +66,7 @@
 				padding: 1rem 1.5rem;
 				background-image: url(images/img-play-button@2x.png);
 				background-size: 12px 16px;
-				background-color: $dark-gray;
+				background-color: $light-gray;
 				background-repeat: no-repeat;
 			    background-position: 50% 50%; 
 			    border: none;
@@ -130,7 +130,7 @@
 			margin: 0 auto;
 			line-height: 0;
 			font-size: 1.75rem;
-			color: $dark-gray;
+			color: $light-gray;
 
 			&:hover {
 				color: $link-color;
