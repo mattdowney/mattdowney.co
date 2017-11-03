@@ -1715,10 +1715,11 @@ a.hero-cat:hover {
       padding: 1rem 1.5rem;
       background-image: url(images/img-stop-button@2x.png);
       background-size: 16px 16px;
-      background-color: #F1F0F4;
+      background-color: #A8AAC3;
       background-repeat: no-repeat;
       background-position: 50% 50%;
-      border: none; }
+      border: none;
+      border-radius: 0; }
       .ringtone-content .preview .sc_player_container1 input.myButton_stop:focus, .ringtone-content .preview .sc_player_container1 input.myButton_stop:hover {
         border: none;
         outline: none;
