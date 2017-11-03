@@ -84,10 +84,11 @@
 				padding: 1rem 1.5rem;
 				background-image: url(images/img-stop-button@2x.png);
 				background-size: 16px 16px;
-				background-color: $dark-gray;
+				background-color: $light-gray;
 				background-repeat: no-repeat;
 			    background-position: 50% 50%; 
 			    border: none;
+			    border-radius:0;
 
 				&:focus, &:hover {
 					border: none;
