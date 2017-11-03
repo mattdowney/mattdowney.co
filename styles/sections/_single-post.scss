@@ -95,6 +95,11 @@
 	font-size: 19px;
 	line-height: 35px;
 
+	abbr {
+		border-bottom: 1px dotted $light-gray;
+		text-decoration: none;
+	}
+
 	span.EnlighterJS {
 		padding: 0.65rem 1rem 0.5rem 1rem;
 	}

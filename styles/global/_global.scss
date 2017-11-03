@@ -8,6 +8,24 @@
 
 //	Typography
 
+h1.greeting {
+  font-size: 3rem;
+  font-weight: 300;
+  width: 66%;
+  margin: 40px auto 100px auto;
+  line-height: 1.38;
+
+  span {
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 0.45em;
+    letter-spacing: 0.065em;
+    margin-bottom: 20px;
+  }
+}
+
 .greeting strong {
   font-family: 'Rubik', sans-serif;
 }
