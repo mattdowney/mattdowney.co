@@ -20,7 +20,7 @@
 			<div class="blog-article-excerpt">
 				<?php exclude_post_categories("1"); ?>
 				<h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-				<p><?php echo substr(get_the_excerpt(), 0,180); ?>&nbsp;&hellip;</p>
+				<p><?php echo wp_trim_words( get_the_content(), 30, '...' ); ?></p>
 				<a class="button" href="<?php the_permalink(); ?>"><?php the_field('more-button'); ?></a>
 			</div> <!-- End blog-article-excerpt -->
 
