@@ -21,7 +21,7 @@
 }
 
 .reading-time {
-	margin: 15px auto 60px auto;
+	margin: 0.65rem auto 5rem auto;
 	text-align: center;
 	display: block;
 	color: $light-gray;
@@ -116,8 +116,9 @@
 		font-family: 'Source Serif Pro', serif;
 		font-size: 1.3rem;
 		line-height: 2rem;
-		margin: 0 0 3rem 0;
+		margin: 0 0 3rem 1.25rem;
 		padding: 0;
+		list-style-type: circle;
 	}
 
 	ol {
@@ -159,7 +160,7 @@
 .post-content h2 {
 	font-size: 1.9rem;
 	line-height: 2.4rem;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .post-content blockquote p {

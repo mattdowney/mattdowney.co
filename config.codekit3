@@ -7,7 +7,7 @@
 		"uuidString": "9D5CC579-6D1E-48AF-9695-DF800C3036CC"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -116,6 +116,17 @@
 		"iS": 68835,
 		"oA": 0,
 		"oAP": "\/images\/bg-body.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bg-dots.png": {
+		"ft": 32768,
+		"iS": 11736,
+		"oA": 0,
+		"oAP": "\/images\/bg-dots.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
