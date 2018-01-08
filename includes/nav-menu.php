@@ -14,18 +14,18 @@
          xmlns="http://www.w3.org/2000/svg">
         <line x1="1" y1="30" 
               x2="30" y2="1" 
-              stroke="white" 
+              stroke="#4B4E69" 
               stroke-width="3"/>
         <line x1="1" y1="1" 
               x2="30" y2="30" 
-              stroke="white" 
+              stroke="#4B4E69" 
               stroke-width="3"/>
       </svg>
     </a>
 
     <div class="main-nav">
 
-      <?php get_template_part('includes/logo-halloween'); ?>
+      <?php get_template_part('includes/logo'); ?>
 
       <ul>
         <li><a href="<?php bloginfo('wpurl'); ?>/about/">About</a></li>
