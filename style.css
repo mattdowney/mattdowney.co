@@ -63,8 +63,8 @@ h1.greeting {
 p {
   margin: 0 0 20px 0;
   font-family: 'Source Serif Pro', serif;
-  font-size: 1.3rem;
-  line-height: 2rem;
+  font-size: 1.16rem;
+  line-height: 1.85rem;
   margin-bottom: 2.5rem; }
 
 p a, .greeting a, .blog-greeting a, .greeting-centered a, .footer ul a, ul.navigation-menu a {
