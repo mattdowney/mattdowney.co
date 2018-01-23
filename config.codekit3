@@ -17,8 +17,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"cB": 0,
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -226,6 +225,13 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/bg-newsletter@2x_tmp1672943186": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/images\/bg-newsletter@2x_tmp1672943186",
+		"oF": 0
 		},
 	"\/images\/halloween-logo.sketch": {
 		"cB": 0,
