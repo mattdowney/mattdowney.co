@@ -1536,15 +1536,15 @@ a.hero-cat:hover {
     font-size: 1.2rem; }
   .post-content ul {
     font-family: 'Source Serif Pro', serif;
-    font-size: 1.3rem;
-    line-height: 2rem;
+    font-size: 1.16rem;
+    line-height: 1.85rem;
     margin: 0 0 3rem 1.25rem;
     padding: 0;
     list-style-type: circle; }
   .post-content ol {
     font-family: 'Source Serif Pro', serif;
-    font-size: 1.3rem;
-    line-height: 2rem;
+    font-size: 1.16rem;
+    line-height: 1.85rem;
     margin: 0 0 3rem 0;
     padding: 0 0 0 1.30rem; }
     .post-content ol li {
