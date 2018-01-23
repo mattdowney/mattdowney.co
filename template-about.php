@@ -33,7 +33,7 @@
 
 		<p>While working in the Pacific Northwest, I was thrown in to the most creative and energizing environment I had ever experienced. I was surrounded by smart people, innovative ideas, and tons of new technology.</p> 
 
-		<p>It was during that time that I was introduced to web design and began taking multimedia classes at <a href="http://psu.edu">Portland State University</a>. After earning my certificate, I took my newly acquired skills back to ATL to start <a href="https://45royale.com/" title="45royale">45royale</a>.</p>
+		<p>It was during that time that I was introduced to web design and began taking multimedia classes at <a href="http://psu.edu">Portland State University</a>. After earning my certificate, I took my newly acquired skills back to Atlanta to start <a href="https://45royale.com/" title="45royale">45royale</a>.</p>
 
 		<p>Now, with over a decade of experience in the web design and development space, I’m happy to offer my expertise. If you have a question or would like to chat about working together, please feel free to <a href="<?php bloginfo('wpurl'); ?>/contact">contact me</a> or <a href="http://twitter.com/mattdowney">hit me up on Twitter</a>.</p>
 
