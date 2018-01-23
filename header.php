@@ -12,7 +12,7 @@
 
 		<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
 
-		<script src="https://use.fontawesome.com/3d3aa07ec0.js"></script>
+		<!--<script src="https://use.fontawesome.com/3d3aa07ec0.js"></script>-->
 
 		<!-- Global Site Tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-25954660-2"></script>
