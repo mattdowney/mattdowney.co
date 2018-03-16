@@ -7,7 +7,7 @@
 		"uuidString": "9D5CC579-6D1E-48AF-9695-DF800C3036CC"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26330",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -17,8 +17,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"cB": 0,
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -226,13 +225,6 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
-		},
-	"\/images\/bg-newsletter@2x_tmp1672943186": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/images\/bg-newsletter@2x_tmp1672943186",
-		"oF": 0
 		},
 	"\/images\/halloween-logo.sketch": {
 		"cB": 0,
@@ -2138,6 +2130,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -2701,6 +2694,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,

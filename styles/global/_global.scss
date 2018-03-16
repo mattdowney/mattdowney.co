@@ -224,7 +224,11 @@ body {
   background-attachment: fixed;
   background-image: url(images/bg-newsletter@2x.jpg);
   background-size: 784px 347px;
-  background-size: 60% auto;
+  //background-size: 60% auto;
+
+  &:before {
+    opacity: 0.5;
+  }
 }
 
 .blog .newsletter {
