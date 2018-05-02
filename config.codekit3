@@ -17,7 +17,8 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -2076,13 +2077,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-work.php",
-		"oF": 0
-		},
-	"\/uppy.sublime-project": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/uppy.sublime-project",
 		"oF": 0
 		},
 	"\/uppy.sublime-workspace": {

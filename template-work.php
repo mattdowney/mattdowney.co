@@ -4,11 +4,9 @@
 
 <?php get_header(); ?>
 
-<h1 class="greeting">For over a decade I've been pursuing greatness for the startups, small businesses, agencies, and household names that trust me with <a href="#case-studies">their brands</a>.</h1>
+<h1 class="greeting">For over a decade I've been pursuing greatness for the startups, small businesses, agencies, and household names that trust me with their brands.</h1>
 
 <div id="case-studies" class="work-content">
-
-	<h3 class="section-title">Case Studies</h3>
 
 	<ul>
 		<li class="case one">
