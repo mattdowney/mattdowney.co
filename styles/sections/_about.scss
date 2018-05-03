@@ -149,6 +149,10 @@
 }
 
 @media (max-width: 750px) {
+	.about-text {
+		max-width: 100%;
+	}
+
 	.logo-cloud {
 		display: none;
 	}
