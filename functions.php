@@ -103,7 +103,7 @@ function reading_time() {
     if ($readingtime == 1) {
       $timer = " minute";
     } else {
-      $timer = " minutes";
+      $timer = " minute";
     }
     $totalreadingtime = $readingtime . $timer;
 
